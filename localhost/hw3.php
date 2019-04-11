@@ -126,35 +126,53 @@ function isSpace($char){
 echo "<br/><br/>Задание 6<br/><br/>";
 
 $menus = [
-            ["Меню1", "http://site.ru"],
+
+    ["Меню1", "http://site.ru"],
             ["Меню2", "http://site.ru"],
             ["Меню3", "http://site.ru"],
-            ["Меню4", "http://site.ru"]
+            ["Меню4", "http://site.ru", [
+                ["Меню11", "http://site.ru"],
+                ["Меню12", "http://site.ru"],
+                ["Меню13", "http://site.ru", [
+                    ["Меню11", "http://site.ru", [
+                        ["Меню11", "http://site.ru"],
+                        ["Меню12", "http://site.ru", [
+                            ["Меню11", "http://site.ru"],
+                            ["Меню12", "http://site.ru"],
+                            ["Меню13", "http://site.ru"],
+                            ["Меню14", "http://site.ru"]
+                        ]],
+                        ["Меню13", "http://site.ru"],
+                        ["Меню14", "http://site.ru"]
+                    ]],
+                    ["Меню12", "http://site.ru"],
+                    ["Меню13", "http://site.ru"],
+                    ["Меню14", "http://site.ru"]
+                ]],
+                ["Меню14", "http://site.ru"]
+            ]]
 ];
 
 function renderMenu($menuList){
 
     $menu .= "<ul>";
 
-    foreach($menuList as $position){
+    for($i=0; $i<count($menuList);++$i){
 
-        //var_dump($value);
-        foreach($position as $value){
+        $menu .= "<li><a href='{$menuList[$i][1]}'>{$menuList[$i][0]}</a></li>";
 
-            if(is_array($value)){
+        if($menuList[$i][2]){
 
-                $menu .= renderMenu($value);
-                echo ">>>>>>>>>>>>";
-            }else{
-
-                $menu .= "<li><a href='{$value[1]}'>{$value[0]}</a></li>";
+                $menu .= renderMenu($menuList[$i][2]);
             }
-        }
+
+
     }
 
     $menu .= "</ul>";
-    //var_dump($menu);
+
     return $menu;
+
 }
 
 echo renderMenu($menus);
