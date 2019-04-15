@@ -1,5 +1,4 @@
 <h2>Каталог</h2>
-<?var_dump($imgs )?>
 
 <? foreach($imgs as $path): ?>
 

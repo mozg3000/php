@@ -12,7 +12,6 @@ if (isset($_GET['page'])) {
     $page = 'index';
 }
 
-
 //Для каждой страницы готовим массив со своим набором переменных
 //для подстановки их в соотвествующий шаблон
 $params = [];
@@ -24,11 +23,10 @@ switch ($page) {
         break;
     case 'catalog':
 
+        $imgs_path = array_splice(scandir(IMGS_DIR . "small/"),2);
+
         if(isset($_POST["load"])){
 
-
-            $imgs_path = array_splice(scandir(IMGS_DIR . "small/"),2);
-            ;
             $path=IMGS_DIR . "big/" . $_FILES["rfile"]["name"];
             uploadFile("rfile", $path);
 
@@ -38,19 +36,9 @@ switch ($page) {
             header("Location: ?page=catalog");
         }
         $params = [
-            "imgs" => $imgs_path
+            "imgs" => array_splice($imgs_path,0)
         ];
         break;
-//    case 'api_catalog':
-//        $params = ["catalog" => [
-//            "Спички",
-//            "Кружка",
-//            "Ведро"
-//        ]
-//        ];
-//
-//        echo json_encode($params, JSON_UNESCAPED_UNICODE | JSON_NUMERIC_CHECK);
-//        die();
 
 }
 //пример использования модуля для логирования данных
