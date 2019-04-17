@@ -55,3 +55,10 @@ function getAssocResult($sql)
         $array_result[] = $row;
     return $array_result;
 }
+
+function increaseShowNumber($sql){
+
+    $db = getDb();
+    $result = @mysqli_query($db, $sql) or die(mysqli_error($db));
+    var_dump($result);
+}

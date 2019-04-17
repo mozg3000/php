@@ -23,6 +23,7 @@ function prepareVariables($page)
             $content = getPicture($_GET['id']);
             $params['path'] = $content['path'];
             $params['name'] = $content['name'];
+            $params['show_number'] = $content['show_number'];
             break;
     }
     return $params;
