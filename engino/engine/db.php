@@ -59,6 +59,7 @@ function getAssocResult($sql)
 function increaseShowNumber($sql){
 
     $db = getDb();
-    $result = @mysqli_query($db, $sql) or die(mysqli_error($db));
-    var_dump($result);
+    $response = @mysqli_query($db, $sql) or die(mysqli_error($db));
+
+    return $response;
 }

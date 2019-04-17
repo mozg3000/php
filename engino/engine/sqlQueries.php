@@ -15,8 +15,10 @@ function getPicture($id){
 //        var_dump($shownumber);
         $sql_increase_show_number = "UPDATE `pictures` SET `show_number`= {$shownumber} WHERE id = {$id};";
 
-        increaseShowNumber($sql_increase_show_number);
-        $result["show_number"] += 1;
+        if(increaseShowNumber($sql_increase_show_number)){
+
+            $result["show_number"] += 1;
+        }
     }
 
     return $result;

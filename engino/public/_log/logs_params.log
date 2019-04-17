@@ -12105,3 +12105,173 @@ Array
 
 
 
+### 17.04.2019 16:36:52
+Array
+(
+    [pictures] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 92
+                    [name] => Имя2
+                    [type] => small
+                    [path] => /img/gallery_img/small/02.jpg
+                    [show_number] => 13
+                )
+
+            [1] => Array
+                (
+                    [id] => 100
+                    [name] => Имя10
+                    [type] => small
+                    [path] => /img/gallery_img/small/10.jpg
+                    [show_number] => 12
+                )
+
+            [2] => Array
+                (
+                    [id] => 96
+                    [name] => Имя6
+                    [type] => small
+                    [path] => /img/gallery_img/small/06.jpg
+                    [show_number] => 11
+                )
+
+            [3] => Array
+                (
+                    [id] => 102
+                    [name] => Имя12
+                    [type] => small
+                    [path] => /img/gallery_img/small/12.jpg
+                    [show_number] => 10
+                )
+
+            [4] => Array
+                (
+                    [id] => 94
+                    [name] => Имя4
+                    [type] => small
+                    [path] => /img/gallery_img/small/04.jpg
+                    [show_number] => 8
+                )
+
+            [5] => Array
+                (
+                    [id] => 91
+                    [name] => Имя1
+                    [type] => small
+                    [path] => /img/gallery_img/small/01.jpg
+                    [show_number] => 7
+                )
+
+            [6] => Array
+                (
+                    [id] => 95
+                    [name] => Имя5
+                    [type] => small
+                    [path] => /img/gallery_img/small/05.jpg
+                    [show_number] => 5
+                )
+
+            [7] => Array
+                (
+                    [id] => 97
+                    [name] => Имя7
+                    [type] => small
+                    [path] => /img/gallery_img/small/07.jpg
+                    [show_number] => 5
+                )
+
+            [8] => Array
+                (
+                    [id] => 98
+                    [name] => Имя8
+                    [type] => small
+                    [path] => /img/gallery_img/small/08.jpg
+                    [show_number] => 2
+                )
+
+            [9] => Array
+                (
+                    [id] => 103
+                    [name] => Имя13
+                    [type] => small
+                    [path] => /img/gallery_img/small/13.jpg
+                    [show_number] => 2
+                )
+
+            [10] => Array
+                (
+                    [id] => 93
+                    [name] => Имя3
+                    [type] => small
+                    [path] => /img/gallery_img/small/03.jpg
+                    [show_number] => 1
+                )
+
+            [11] => Array
+                (
+                    [id] => 101
+                    [name] => Имя11
+                    [type] => small
+                    [path] => /img/gallery_img/small/11.jpg
+                    [show_number] => 1
+                )
+
+            [12] => Array
+                (
+                    [id] => 104
+                    [name] => Имя14
+                    [type] => small
+                    [path] => /img/gallery_img/small/14.jpg
+                    [show_number] => 1
+                )
+
+            [13] => Array
+                (
+                    [id] => 99
+                    [name] => Имя9
+                    [type] => small
+                    [path] => /img/gallery_img/small/09.jpg
+                    [show_number] => 0
+                )
+
+            [14] => Array
+                (
+                    [id] => 105
+                    [name] => Имя15
+                    [type] => small
+                    [path] => /img/gallery_img/small/15.jpg
+                    [show_number] => 0
+                )
+
+        )
+
+)
+
+
+
+### 17.04.2019 16:36:52
+Array
+(
+)
+
+
+
+### 17.04.2019 16:37:00
+Array
+(
+    [path] => /img/gallery_img/small/07.jpg
+    [name] => Имя7
+    [show_number] => 6
+)
+
+
+
+### 17.04.2019 16:37:00
+Array
+(
+)
+
+
+
