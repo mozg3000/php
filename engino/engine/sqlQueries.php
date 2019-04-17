@@ -1,7 +1,7 @@
 <?php
 function getPicture($name){
-    $name = name;
-
+    //$name = name;
+var_dump($name);
     $sql = "SELECT * FROM pictures WHERE pictures.name = {$name} AND pictures.type = 'big'";
     $pics = getAssocResult($sql);
     //var_dump($pics);
@@ -12,13 +12,14 @@ function getPicture($name){
         $result = $pics[0];
         var_dump($result["show_number"]);
         $shownumber= $result["show_number"]+1;
-//        var_dump($shownumber);
-        $sql_increase_show_number = "UPDATE `pictures` SET `show_number`= {$shownumber} WHERE pictures.name = {$name} AND pictures.type = 'small';";
+        var_dump($result['name']);
+        //$name = $result['name'];
+        //$sql_increase_show_number = "UPDATE `pictures` SET `show_number`= {$shownumber} WHERE pictures.name = {$name} AND pictures.type = 'small';";
 
-        if(increaseShowNumber($sql_increase_show_number)){
+//        if(increaseShowNumber($sql_increase_show_number)){
 
             $result["show_number"] += 1;
-        }
+       // }
     }
 
     return $result;
