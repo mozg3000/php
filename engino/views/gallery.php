@@ -2,11 +2,11 @@
 
 <? foreach ($pictures as $img): ?>
 <!--    --><?//var_dump($img['path'])?>
-   <a href="/picture/?id=<?=$img['id']?>">
+   <a href="/picture/?name=<?=$img['name']?>">
        <p>
            <?=$img['name']?>
        </p>
-       <img src="<?=$img['path']?>" alt="">
+       <img src="<?=$img['path'] . $img['name']?>" alt="">
    </a>
 
 <?endforeach;?>

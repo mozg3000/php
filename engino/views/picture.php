@@ -1,8 +1,6 @@
 
-<p>
-    <?=$name?>
-</p>
-<img src="<?= $path?>" alt="" ><br/>
+
+<img src="<?= $path . $name?>" alt="" ><br/>
 <p>
     Просмотрено <?=$show_number?> раз.
 </p>
