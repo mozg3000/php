@@ -2,6 +2,7 @@
 //Файл констант
 define("TEMLATES_DIR", '../views/');
 define("LAYOUTS_DIR", 'layout/');
+define("GALLERY_DIR", '/img/gallery_img/');
 
 
 /* DB config */

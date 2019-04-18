@@ -20,8 +20,8 @@ function prepareVariables($page)
 
             break;
         case 'picture':
-            $content = getPicture($_GET['name']);
-            $params['path'] = $content['path'];
+            $content = getPicture($_GET['id']);
+//            var_dump($content);
             $params['name'] = $content['name'];
             $params['show_number'] = $content['show_number'];
             break;
