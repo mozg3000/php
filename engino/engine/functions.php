@@ -25,6 +25,19 @@ function prepareVariables($page)
             $params['name'] = $content['name'];
             $params['show_number'] = $content['show_number'];
             break;
+        case 'catalog':
+
+            $params["catalog"] = readCatalog();
+
+            break;
+        case 'product':
+
+            $content = readProduct($_GET['id']);
+//            var_dump($content);die();
+            $params['product_name'] = $content['product_name'];
+            $params['description'] = $content['description'];
+            $params['img'] = $content['img'];
+            break;
     }
     return $params;
 }
