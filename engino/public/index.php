@@ -14,7 +14,6 @@ if ($url_array[1] == "") {
 } else {
     $page = $url_array[1];
 }
-var_dump($page);
 $params = prepareVariables($page);
 
 //пример использования модуля для логирования данных

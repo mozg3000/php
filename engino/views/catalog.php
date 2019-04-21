@@ -2,7 +2,6 @@
 
 <? foreach ($catalog as $product): ?>
 
-<!--    --><?//=var_dump($catalog)?>
     <a href="/product/?id=<?=$product['id']?>"  style="display: inline-block;">
 
         <div style="display: inline-block;border: 1px solid; margin: 5px">
@@ -12,8 +11,5 @@
             </h4>
         </div>
     </a>
-<!--    <p>-->
-<!--        --><?//=$product['description']?>
-<!--    </p>-->
 
 <?endforeach;?>

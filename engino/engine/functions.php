@@ -21,7 +21,6 @@ function prepareVariables($page)
             break;
         case 'picture':
             $content = getPicture($_GET['id']);
-//            var_dump($content);
             $params['name'] = $content['name'];
             $params['show_number'] = $content['show_number'];
             break;
@@ -33,7 +32,6 @@ function prepareVariables($page)
         case 'product':
 
             $content = readProduct($_GET['id']);
-//            var_dump($content);die();
             $params['product_name'] = $content['product_name'];
             $params['description'] = $content['description'];
             $params['img'] = $content['img'];
