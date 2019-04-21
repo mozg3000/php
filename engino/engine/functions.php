@@ -14,42 +14,21 @@ function prepareVariables($page)
         case 'index':
             $params["username"] ="Вася";
             break;
-        case 'news':
+        case 'gallery':
 
-            $params["news"] = getNews();
+            $params["pictures"] = getPictures();
 
             break;
-        case 'newspage':
-            $content = getNewsContent($_GET['id']);
-            $params['prev'] = $content['prev'];
-            $params['text'] = $content['text'];
+        case 'picture':
+            $content = getPicture($_GET['id']);
+//            var_dump($content);
+            $params['name'] = $content['name'];
+            $params['show_number'] = $content['show_number'];
             break;
     }
     return $params;
 }
 
-function getNewsContent($id){
-    $id = (int)$id;
-
-    $sql = "SELECT * FROM news WHERE id = {$id}";
-    $news = getAssocResult($sql);
-
-    //В случае если новости нет, вернем пустое значение
-    $result = [];
-    if(isset($news[0]))
-        $result = $news[0];
-
-    return $result;
-}
-
-
-function getNews()
-{
-    $sql = "SELECT * FROM news";
-    $news = getAssocResult($sql);
-    // var_dump($news);
-    return $news;
-}
 
 //Функция, возвращает текст шаблона $page с подстановкой переменных
 //из массива $params, содержимое шабона $page подставляется в
