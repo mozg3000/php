@@ -2,7 +2,7 @@
 
 <? foreach ($catalog as $product): ?>
 
-    <a href="/product/?id=<?=$product['id']?>"  style="display: inline-block;">
+    <a href="/product/<?=$product['id']?>"  style="display: inline-block;">
 
         <div style="display: inline-block;border: 1px solid; margin: 5px">
             <img src="<?= GALLERY_DIR . 'small/' . $product['img']?>" alt="">

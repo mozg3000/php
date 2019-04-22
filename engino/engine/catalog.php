@@ -20,3 +20,37 @@ function readProduct($id){
 
     return $result;
 }
+function initProduct($id){
+
+    $content = readProduct($id);
+//    var_dump($id);
+    $feedback = readFeedback($id);
+    $params['product_name'] = $content['product_name'];
+    $params['description'] = $content['description'];
+    $params['img'] = $content['img'];
+    $params['id'] = $content['id'];
+    $params['feedbacks'] = $feedback;
+//var_dump($feedback);
+    return $params;
+}
+function addfeedback($id, $name, $feedback){
+
+    $id=(int)$id;
+    $sql = "INSERT INTO `feedbacks`(`sender`, `message`, `product_id`) VALUES ('{$name}','{$feedback}', $id)";
+//    var_dump($sql);
+    executeQuery($sql);
+}
+
+function  readFeedback($id){
+
+    $id = (int)$id;
+    $result=[];
+    if($id!=0){
+
+        $sql = "SELECT * FROM feedbacks WHERE product_id = $id";
+//    var_dump($sql);
+        $result = getAssocResult($sql);
+    }
+//var_dump($result);
+    return $result;
+}
