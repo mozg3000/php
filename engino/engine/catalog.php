@@ -29,14 +29,14 @@ function initProduct($id){
     $params['description'] = $content['description'];
     $params['img'] = $content['img'];
     $params['id'] = $content['id'];
-    $params['feedbacks'] = $feedback;
+    $params['feedback'] = $feedback;
 //var_dump($feedback);
     return $params;
 }
 function addfeedback($id, $name, $feedback){
 
     $id=(int)$id;
-    $sql = "INSERT INTO `feedbacks`(`sender`, `message`, `product_id`) VALUES ('{$name}','{$feedback}', $id)";
+    $sql = "INSERT INTO `feedback`(`sender`, `message`, `product_id`) VALUES ('{$name}','{$feedback}', $id)";
 //    var_dump($sql);
     executeQuery($sql);
 }
@@ -47,7 +47,7 @@ function  readFeedback($id){
     $result=[];
     if($id!=0){
 
-        $sql = "SELECT * FROM feedbacks WHERE product_id = $id";
+        $sql = "SELECT * FROM feedback WHERE product_id = $id";
 //    var_dump($sql);
         $result = getAssocResult($sql);
     }

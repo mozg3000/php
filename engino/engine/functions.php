@@ -41,18 +41,19 @@ function prepareVariables($page, $action, $id)
                 }
 
             }elseif ($action=='add'){
-                //echo "POST";
-//                var_dump($_POST);
-                if($_POST['name']!=''){
 
-                    extract($_POST);
-                    $params=initProduct($id);
+                $id=$_POST['id'];
+                if($_POST['name']!='' && $_POST['feedback'] != ''){
+
+                    $name=$_POST['name'];
+                    $feedback=$_POST['feedback'];
+//                    $params=initProduct($id);
                     addfeedback($id,$name,$feedback);
-                    header('Location: /product/add');
                 }else{
 
-                    $params=initProduct($id);
                 }
+                $params=initProduct($id);
+                header("Location: /product/{$id}");
             }
             break;
     }

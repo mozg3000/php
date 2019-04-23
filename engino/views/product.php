@@ -24,8 +24,8 @@
     Отзывы
 </h3>
 <hr>
-<?//=var_dump($feedbacks)?>
-<?foreach ($feedbacks as $feed):?>
+<?//=var_dump($feedback);die();?>
+<?foreach ($feedback as $feed):?>
 <h3>
     <?=$feed['sender']?>
 </h3>
