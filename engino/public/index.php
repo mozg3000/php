@@ -13,9 +13,19 @@ if ($url_array[1] == "") {
     $page = 'index';
 } else {
     $page = $url_array[1];
+    if (!$url_array[2]=="") {
+        if (is_numeric($url_array[2])) {
+            $id = $url_array[2];
+        } else {
+            $action = $url_array[2];
+            if (is_numeric($url_array[3])) {
+                $id = $url_array[3];
+            }
+        }
+    }
 }
-
-$params = prepareVariables($page);
+//var_dump($page,$action,$id);
+$params = prepareVariables($page, $action, $id);
 
 //пример использования модуля для логирования данных
 //можно использовать для отладки, смотреть результат

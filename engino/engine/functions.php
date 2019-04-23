@@ -5,7 +5,7 @@
 /*
  * Функция подготовки переменных для передачи их в шаблон
  */
-function prepareVariables($page)
+function prepareVariables($page, $action, $id)
 {
 //Для каждой страницы готовим массив со своим набором переменных
 //для подстановки их в соотвествующий шаблон
@@ -20,10 +20,41 @@ function prepareVariables($page)
 
             break;
         case 'picture':
-            $content = getPicture($_GET['id']);
-//            var_dump($content);
+
+            $content = getPicture($id);
             $params['name'] = $content['name'];
             $params['show_number'] = $content['show_number'];
+
+            break;
+        case 'catalog':
+
+            $params["catalog"] = readCatalog();
+
+            break;
+        case 'product':
+//            var_dump($_POST);
+            if($action=="") {
+
+                if($id){
+
+                    $params=initProduct($id);
+                }
+
+            }elseif ($action=='add'){
+
+                $id=$_POST['id'];
+                if($_POST['name']!='' && $_POST['feedback'] != ''){
+
+                    $name=$_POST['name'];
+                    $feedback=$_POST['feedback'];
+//                    $params=initProduct($id);
+                    addfeedback($id,$name,$feedback);
+                }else{
+
+                }
+                $params=initProduct($id);
+                header("Location: /product/{$id}");
+            }
             break;
     }
     return $params;
