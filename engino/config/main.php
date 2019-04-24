@@ -18,4 +18,5 @@ include_once "../engine/log.php";
 include_once "../engine/db.php";
 include_once "../engine/sqlQueries.php";
 include_once "../engine/catalog.php";
+include_once "../engine/cart.php";
 

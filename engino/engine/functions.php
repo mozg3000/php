@@ -47,13 +47,49 @@ function prepareVariables($page, $action, $id)
 
                     $name=$_POST['name'];
                     $feedback=$_POST['feedback'];
-//                    $params=initProduct($id);
                     addfeedback($id,$name,$feedback);
                 }else{
 
                 }
                 $params=initProduct($id);
                 header("Location: /product/{$id}");
+            }
+            break;
+        case 'cart':
+            //var_dump($id,$action);
+            if($action == 'add'){
+
+                addToCart($id, session_id());
+                header("Location: /catalog");
+            }
+            if($action == ''){
+
+//                $content = readCart(session_id());
+//                $params['products'] = $content;
+//                var_dump($content);die();
+            }
+            if($action == 'delete'){
+
+                deleteFromCart($id, session_id());
+            }
+            $content = readCart(session_id());
+            $params['products'] = $content;
+            break;
+        case 'proceed':
+
+            if($action == "proceed"){
+
+
+            }
+            break;
+        case 'order':
+
+//            var_dump($action);die();
+            if($action == "proceed"){
+
+                proceedOrder(session_id(), $_POST['telefon']);
+                session_regenerate_id(true);
+                header("Location: /catalog");
             }
             break;
     }
