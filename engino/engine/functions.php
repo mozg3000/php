@@ -108,6 +108,7 @@ function prepareVariables($page, $action, $id)
             $params['products']=$orders;
             $params['id'] = $id;
 
+
 //            header("Location: /order");
             break;
         case 'login':

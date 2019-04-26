@@ -25,7 +25,7 @@ function deleteFromCart($id, $session){
 
 function proceedOrder($session, $telefon){
 
-        $sql = "INSERT INTO `orders`(`id_session`, `telefon`) VALUES ('$session', $telefon)";
+    $sql = "INSERT INTO `orders`(`id_session`, `telefon`) VALUES ('$session', $telefon)";
 //        var_dump($sql); die();
 
     return executeQuery($sql);

@@ -31,7 +31,7 @@
         Цена всего <?=$product['total']?>
     </div>
     <div style="display: inline-block;margin: 0 20px;">
-        <a href="/cart/delete/<?=$product['id']?>">
+        <a href="/cart/delete/<?=$product['id'] . '?id_session=' . $product['id_session']?>">
             [X]
         </a>
     </div>
