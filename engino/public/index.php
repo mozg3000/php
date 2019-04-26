@@ -1,6 +1,6 @@
 <?php
 //Точка входа в приложение, сюда мы попадаем каждый раз когда загружаем страницу
-
+session_start();
 //Первым делом подключим файл с константами настроек
 include "../config/main.php";
 
@@ -23,7 +23,9 @@ if ($url_array[1] == "") {
             }
         }
     }
+//    var_dump($id,$action,$url_array[1]);
 }
+
 //var_dump($page,$action,$id);
 $params = prepareVariables($page, $action, $id);
 

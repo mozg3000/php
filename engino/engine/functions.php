@@ -9,7 +9,17 @@ function prepareVariables($page, $action, $id)
 {
 //Для каждой страницы готовим массив со своим набором переменных
 //для подстановки их в соотвествующий шаблон
+    $allow=false;
+    $user='';
     $params = [];
+
+    if (is_auth()) {
+        $allow = true;
+        $user = get_user();
+    }
+    $params["allow"]=$allow;
+    $params["user"]=$user;
+
     switch ($page) {
         case 'index':
             $params["username"] ="Вася";
@@ -47,7 +57,6 @@ function prepareVariables($page, $action, $id)
 
                     $name=$_POST['name'];
                     $feedback=$_POST['feedback'];
-//                    $params=initProduct($id);
                     addfeedback($id,$name,$feedback);
                 }else{
 
@@ -55,6 +64,77 @@ function prepareVariables($page, $action, $id)
                 $params=initProduct($id);
                 header("Location: /product/{$id}");
             }
+            break;
+        case 'cart':
+            //var_dump($id,$action);
+            if($action == 'add'){
+
+                addToCart($id, session_id());
+                header("Location: /catalog");
+            }
+            if($action == ''){
+
+//                $content = readCart(session_id());
+//                $params['products'] = $content;
+//                var_dump($content);die();
+            }
+            if($action == 'delete'){
+
+                deleteFromCart($id, session_id());
+            }
+            $content = readCart(session_id());
+            $params['products'] = $content;
+            break;
+        case 'proceed':
+
+            if($action == "proceed"){
+
+
+            }
+            break;
+        case 'order':
+
+//            var_dump($action);die();
+            if($action == "proceed"){
+
+                proceedOrder(session_id(), $_POST['telefon']);
+                session_regenerate_id(true);
+                header("Location: /catalog");
+            }
+
+            break;
+        case 'showOrder':
+            $orders=showOrder($id);
+            $params['products']=$orders;
+            $params['id'] = $id;
+
+//            header("Location: /order");
+            break;
+        case 'login':
+
+           //$resonse=auth($_POST['login'], $_POST['pass']);
+//           var_dump($resonse);die();
+            if($action == "out"){
+
+                session_destroy();
+
+                setcookie("hash", "", -3600, "/");
+                //header("Location: /");
+            }
+            if($_POST['send']){
+
+                logIn($_POST['login'], $_POST['pass'], $_POST['save']);
+            }
+            //var_dump($user,$allow);die();
+           header("Location: /");
+            break;
+        case 'orders':
+
+            $order_list = ordersList();
+
+            $params['orders'] = $order_list;
+//            header("Location: /catalog");
+
             break;
     }
     return $params;
@@ -69,7 +149,7 @@ function render($page, $params = [])
 
     return renderTamplate(LAYOUTS_DIR . 'layout', [
         "content" => renderTamplate($page, $params),
-        "menu" => renderTamplate("menu")
+        "menu" => renderTamplate("menu", $params)
     ]);
 }
 

@@ -2,7 +2,7 @@
 
 function readCatalog(){
 
-    $sql = "SELECT * FROM `catalog`";
+    $sql = "SELECT * FROM `catalog` order by price desc";
     $products = getAssocResult($sql);
     return $products;
 }
