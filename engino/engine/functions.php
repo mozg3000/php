@@ -9,7 +9,17 @@ function prepareVariables($page, $action, $id)
 {
 //Для каждой страницы готовим массив со своим набором переменных
 //для подстановки их в соотвествующий шаблон
+    $allow=false;
+    $user='';
     $params = [];
+
+    if (is_auth()) {
+        $allow = true;
+        $user = get_user();
+    }
+    $params["allow"]=$allow;
+    $params["user"]=$user;
+
     switch ($page) {
         case 'index':
             $params["username"] ="Вася";
@@ -91,6 +101,40 @@ function prepareVariables($page, $action, $id)
                 session_regenerate_id(true);
                 header("Location: /catalog");
             }
+
+            break;
+        case 'showOrder':
+            $orders=showOrder($id);
+            $params['products']=$orders;
+            $params['id'] = $id;
+
+//            header("Location: /order");
+            break;
+        case 'login':
+
+           //$resonse=auth($_POST['login'], $_POST['pass']);
+//           var_dump($resonse);die();
+            if($action == "out"){
+
+                session_destroy();
+
+                setcookie("hash", "", -3600, "/");
+                //header("Location: /");
+            }
+            if($_POST['send']){
+
+                logIn($_POST['login'], $_POST['pass'], $_POST['save']);
+            }
+            //var_dump($user,$allow);die();
+           header("Location: /");
+            break;
+        case 'orders':
+
+            $order_list = ordersList();
+
+            $params['orders'] = $order_list;
+//            header("Location: /catalog");
+
             break;
     }
     return $params;
@@ -105,7 +149,7 @@ function render($page, $params = [])
 
     return renderTamplate(LAYOUTS_DIR . 'layout', [
         "content" => renderTamplate($page, $params),
-        "menu" => renderTamplate("menu")
+        "menu" => renderTamplate("menu", $params)
     ]);
 }
 

@@ -25,6 +25,7 @@ if ($url_array[1] == "") {
     }
 //    var_dump($id,$action,$url_array[1]);
 }
+
 //var_dump($page,$action,$id);
 $params = prepareVariables($page, $action, $id);
 
