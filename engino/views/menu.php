@@ -9,7 +9,7 @@
     <div>
         <?if($allow):?>
         <p>
-            <?=$user?> <a href="/login/out"> Выход</a>
+            <?=$user?> <a href="/login/out" style="font-size: small"> Выход</a>
         </p>
         <?else:?>
             <a href="/Login" style="border: 1px solid; padding: 10px 25px; margin: auto 0; vertical-align: center ">

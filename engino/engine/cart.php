@@ -3,7 +3,17 @@
 function addToCart($id, $session){
 
     $id=(int)$id;
-    $sql = "INSERT INTO `cart`( `id_product`, `id_session`) VALUES ($id, '$session');";
+    $count_query = "SELECT count(*) as count FROM `cart` where id_product= $id";
+//    var_dump($id,$count_quary);
+    $count = getAssocResult($count_query)[0]['count'];
+//    var_dump($count);die();
+    if(!$count){
+
+        $sql = "INSERT INTO `cart`( `id_product`, `id_session`, quantity) VALUES ($id, '$session', 1);";
+    }else{
+
+        $sql = "UPDATE `cart` SET `quantity`=quantity+1 WHERE id_session = '{$session}' and id_product = {$id}";
+    }
 //    var_dump($sql);
     return executeQuery($sql);
 
@@ -11,16 +21,27 @@ function addToCart($id, $session){
 function readCart($session){
 
     $result = [];
-    $sql = "SELECT id, product_name, count(product_name) as quantity, sum(price) as total, description, price, img FROM cart, enginodb.catalog where id_session = '$session' and id_product = id group by id_product";
+    $sql = "SELECT id, product_name, quantity, price*quantity as total, description, price, img FROM cart, enginodb.catalog where id_session = '$session' and id_product = id";
     $result = getAssocResult($sql);
 //    var_dump($result);
     return $result;
 }
 function deleteFromCart($id, $session){
 
-    $sql = "DELETE FROM `cart` WHERE id_session = '$session' and id_product = $id";
+    $id=(int)$id;
+    $count_query = "SELECT quantity as count FROM `cart` where id_product= $id";
+    $count = getAssocResult($count_query)[0]['count'];
+//    var_dump($id,$count_query,$count);
+    $sql= '';
+    if($count>1){
 
-    return executeQuery($sql);
+        $sql = "UPDATE `cart` SET `quantity`=quantity-1 WHERE id_session = '{$session}' and id_product = {$id}";
+    }elseif($count == 1){
+
+        $sql = "DELETE FROM `cart` WHERE id_session = '$session' and id_product = $id";
+    }
+//var_dump($sql);
+    return isset($sql)?executeQuery($sql):false;
 }
 
 function proceedOrder($session, $telefon){

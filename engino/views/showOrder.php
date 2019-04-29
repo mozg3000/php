@@ -31,9 +31,11 @@
         Цена всего <?=$product['total']?>
     </div>
     <div style="display: inline-block;margin: 0 20px;">
-        <a href="/cart/delete/<?=$product['id'] . '?id_session=' . $product['id_session']?>">
-            [X]
-        </a>
+
+           <p>
+               Передан в обработку
+           </p>
+
     </div>
 
     </div>
@@ -49,8 +51,8 @@
         })?>
     </h3>
 </div>
-<div>
-    <a href="/order" style="margin-left: 0%; border: 1px solid; padding: 10px 25px;">
-        Оформить
-    </a>
-</div>
+<!--<div>-->
+<!--    <a href="/order" style="margin-left: 0%; border: 1px solid; padding: 10px 25px;">-->
+<!--        Оформить-->
+<!--    </a>-->
+<!--</div>-->

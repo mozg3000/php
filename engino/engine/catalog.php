@@ -54,3 +54,11 @@ function  readFeedback($id){
 //var_dump($result);
     return $result;
 }
+
+function addProduct($name,$description,$price,$img){
+
+    $sql = "INSERT INTO `catalog`(`product_name`, `description`, `price`, img) VALUES ('$name','$description','$price','$img')";
+//    var_dump($sql);die();
+
+    return executeQuery($sql);
+}

@@ -20,14 +20,17 @@ if ($url_array[1] == "") {
             $action = $url_array[2];
             if (is_numeric($url_array[3])) {
                 $id = $url_array[3];
+            }else{
+
+                $category = $url_array[3];
             }
         }
     }
-//    var_dump($id,$action,$url_array[1]);
+//    var_dump($id,$action,$url_array[3],$category);
 }
 
 //var_dump($page,$action,$id);
-$params = prepareVariables($page, $action, $id);
+$params = prepareVariables($page, $action, $id, $category);
 
 //пример использования модуля для логирования данных
 //можно использовать для отладки, смотреть результат

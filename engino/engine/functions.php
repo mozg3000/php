@@ -5,7 +5,7 @@
 /*
  * Функция подготовки переменных для передачи их в шаблон
  */
-function prepareVariables($page, $action, $id)
+function prepareVariables($page, $action, $id, $category)
 {
 //Для каждой страницы готовим массив со своим набором переменных
 //для подстановки их в соотвествующий шаблон
@@ -39,6 +39,33 @@ function prepareVariables($page, $action, $id)
         case 'catalog':
 
             $params["catalog"] = readCatalog();
+
+            if($action == 'add'){
+
+                $params['new'] = true;
+                if($category == 'new'){
+
+                    if($_POST['addProduct']){
+
+//                        var_dump($_GET['img']);die();
+                        addProduct($_POST['name'],$_POST['description'],$_POST['price'], $_GET['img']);
+                        header("Location: /catalog");
+                    }
+                }
+                if($category == 'img'){
+
+                    if(isset($_POST["load"])){
+
+                        $path=IMGS_DIR . "big/" . $_FILES["rfile"][name];
+                        uploadFile("rfile", $path);
+
+                        $path2small=IMGS_DIR . "small/" . $_FILES["rfile"][name];
+                        create_thumbnail($path, $path2small, 150, 100);
+                    }
+                    $img = $_FILES["rfile"][name];
+                    header("Location: /catalog/add/new/?img=$img");
+                }
+            }
 
             break;
         case 'product':
@@ -74,6 +101,7 @@ function prepareVariables($page, $action, $id)
             if($action == 'add'){
 
                 addToCart($id, session_id());
+//                var_dump($id);
                 header("Location: /catalog");
             }
             if($action == ''){
@@ -88,6 +116,7 @@ function prepareVariables($page, $action, $id)
             }
             $content = readCart(session_id());
             $params['products'] = $content;
+//            header("Location: /cart");
             break;
         case 'proceed':
 
