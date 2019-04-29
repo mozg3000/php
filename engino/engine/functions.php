@@ -48,6 +48,8 @@ function prepareVariables($page, $action, $id)
                 if($id){
 
                     $params=initProduct($id);
+                    $params["allow"]=$allow;
+                    $params["user"]=$user;
                 }
 
             }elseif ($action=='add'){
@@ -62,6 +64,8 @@ function prepareVariables($page, $action, $id)
 
                 }
                 $params=initProduct($id);
+                $params["allow"]=$allow;
+                $params["user"]=$user;
                 header("Location: /product/{$id}");
             }
             break;
