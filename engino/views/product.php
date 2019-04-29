@@ -1,17 +1,51 @@
 
-<?//= var_dump($product_name);?>
+<?//= var_dump($edit);?>
 <div>
-    <img src="<?= GALLERY_DIR . 'big/' . $img?>" alt="" style="width: 350px">
-    <h4>
-        <?=$product_name?>
-    </h4>
+    <?if(!$edit):?>
+    <p>
+        <a href="/product/edit/<?=$id?>">
+            Редактировать
+        </a>
+    </p>
+    <?else:?>
         <p>
-            <?=$description?>
+            <a href="/product/<?=$id?>">
+                Отмена
+            </a>
         </p>
+    <?endif;?>
+    <img src="<?= GALLERY_DIR . 'big/' . $img?>" alt="" style="width: 350px"><br>
+<!--    --><?//= var_dump($_GET['img'],'tut');?>
+    <?if($edit):?>
+        <?if($_GET["new_img"]):?>
+            Имя файла:- <?=$img?><br>
+        <img src="<?=GALLERY_DIR . 'small/' . $_GET["new_img"]?>" alt=""><br>
+        <?else:?>
+<!--            --><?//= var_dump($_GET['img'],'zdes');?>
+            <form method="post" action="/product/edit/img/<?=$id?>" enctype="multipart/form-data">
+
+                Изображение <br>
+                <input type="file" name="rfile"><br>
+                <input type="submit" name="load" value="Загрузить"><br>
+            </form>
+        <?endif;?>
+    <?endif;?>
+    <form action="/product/edited/<?=$id?>" method="post">
+        <input type="text" name="name" value="<?=$product_name?>" <?if(!$edit){echo "readonly";}?>>
+        <br>
+        <input type="text" name="price" value="<?=$price?>" <?if(!$edit){echo "readonly";}?>>
+        <br>
+        <textarea name="description" cols="30" rows="10" <?if(!$edit){echo "readonly";}?>>
+        <?=$description?>
+    </textarea><br>
+        <?if($edit):?>
+        <input type="submit" name="edit" value="Изменить">
+        <?endif;?>
+    </form>
 <!--    --><?//=$id?>
 </div>
 <p>
-    Дообавте свой отзыв
+    Добавте свой отзыв
 </p>
 <form action="/product/add" method="post">
     <input type="hidden" value="<?=$id?>" name="id">

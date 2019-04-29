@@ -4,6 +4,11 @@
    style="padding: 7px;border: 1px solid; margin-bottom: 20px;display: block; width: 80px;">
     Добавить
 </a><br>
+<?else:?>
+    <a href="/catalog/"
+       style="padding: 7px;border: 1px solid; margin-bottom: 20px;display: block; width: 80px;">
+        Отмена
+    </a><br>
 <?endif;?>
 <?if($new):?>
     <?if($_GET['img']):?>

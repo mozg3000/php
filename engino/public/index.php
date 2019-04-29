@@ -23,10 +23,13 @@ if ($url_array[1] == "") {
             }else{
 
                 $category = $url_array[3];
+                if (is_numeric($url_array[4])) {
+                    $id = $url_array[4];
+                }
             }
         }
     }
-//    var_dump($id,$action,$url_array[3],$category);
+//    var_dump($id,$action,$category);
 }
 
 //var_dump($page,$action,$id);

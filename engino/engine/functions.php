@@ -69,7 +69,7 @@ function prepareVariables($page, $action, $id, $category)
 
             break;
         case 'product':
-//            var_dump($_POST);
+//            var_dump($action);
             if($action=="") {
 
                 if($id){
@@ -77,6 +77,21 @@ function prepareVariables($page, $action, $id, $category)
                     $params=initProduct($id);
                     $params["allow"]=$allow;
                     $params["user"]=$user;
+                }
+                var_dump($_GET['edit'],$_GET['new_img']);
+                if($_GET['edit']){
+
+                    $params["edit"]= true;
+                }else{
+
+                    $params["edit"]= false;
+                }
+                if($_GET['new_img']){
+
+                    $params["new_img"]= $_GET['new_img'];
+                }else{
+
+//                    $params["new_img"]= false;
                 }
 
             }elseif ($action=='add'){
@@ -93,6 +108,38 @@ function prepareVariables($page, $action, $id, $category)
                 $params=initProduct($id);
                 $params["allow"]=$allow;
                 $params["user"]=$user;
+                header("Location: /product/{$id}");
+
+            }elseif($action == 'edit'){
+                $params=initProduct($id);
+                $params["allow"]=$allow;
+                $params["user"]=$user;
+                if($category == 'img'){
+
+                    if($_POST['load']){
+
+//                        var_dump("Location: /product/edit/$id/?img='fjdg.jpg'");die();
+                        $path=IMGS_DIR . "big/" . $_FILES["rfile"][name];
+                        uploadFile("rfile", $path);
+
+                        $path2small=IMGS_DIR . "small/" . $_FILES["rfile"][name];
+                        create_thumbnail($path, $path2small, 150, 100);
+                        $img = $_FILES["rfile"][name];
+                       var_dump("/product/edit/$id/?new_img=$img");
+                        header("Location: /product/{$id}/?edit=true&new_img='{$img}'");
+                    }
+
+                }
+
+                if($id){
+
+
+                    header("Location: /product/{$id}/?edit=true");
+                }
+            }elseif($action == 'edited'){
+
+//                var_dump($id);die();
+                editProduct($id, $_POST['name'],$_POST['description'],$_POST['price']);
                 header("Location: /product/{$id}");
             }
             break;

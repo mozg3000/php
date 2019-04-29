@@ -29,6 +29,7 @@ function initProduct($id){
     $params['description'] = $content['description'];
     $params['img'] = $content['img'];
     $params['id'] = $content['id'];
+    $params['price'] = $content['price'];
     $params['feedback'] = $feedback;
 //var_dump($feedback);
     return $params;
@@ -59,6 +60,13 @@ function addProduct($name,$description,$price,$img){
 
     $sql = "INSERT INTO `catalog`(`product_name`, `description`, `price`, img) VALUES ('$name','$description','$price','$img')";
 //    var_dump($sql);die();
+
+    return executeQuery($sql);
+}
+function editProduct($id, $name,$description, $price){
+
+    $id=(int)$id;
+    $sql = "UPDATE `catalog` SET `product_name`= '$name',`description`= '$description',`price`= $price WHERE id= $id";
 
     return executeQuery($sql);
 }
