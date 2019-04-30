@@ -30,15 +30,8 @@
     <div style="display: inline-block;margin: 0 20px;">
         Цена всего <?=$product['total']?>
     </div>
-    <div style="display: inline-block;margin: 0 20px;">
 
-           <p>
-               Передан в обработку
-           </p>
 
-    </div>
-
-    </div>
 
 <?endforeach;?>
 <div>
@@ -51,8 +44,20 @@
         })?>
     </h3>
 </div>
-<!--<div>-->
-<!--    <a href="/order" style="margin-left: 0%; border: 1px solid; padding: 10px 25px;">-->
-<!--        Оформить-->
-<!--    </a>-->
-<!--</div>-->
+<div style="display: inline-block;margin: 0 20px;">
+
+    <select id="status">
+        <option value="Принят" selected data-orderID="<?=$id?>">
+            Принят
+        </option>
+        <option value="Передан в обработку"  data-orderID="<?=$id?>">
+            Передан в обработку
+        </option>
+    </select>
+
+</div>
+
+<script>
+
+    <?include "../public/js/showOrder.js";?>
+</script>

@@ -149621,3 +149621,3498 @@ Array
 
 
 
+### 30.04.2019 11:28:41
+Array
+(
+    [allow] => 1
+    [user] => admin
+    [edit] => 
+)
+
+
+
+### 30.04.2019 11:28:42
+Array
+(
+    [allow] => 1
+    [user] => admin
+)
+
+
+
+### 30.04.2019 11:28:47
+Array
+(
+    [allow] => 1
+    [user] => admin
+    [username] => Вася
+)
+
+
+
+### 30.04.2019 11:28:47
+Array
+(
+    [allow] => 1
+    [user] => admin
+    [username] => Вася
+)
+
+
+
+### 30.04.2019 11:28:48
+Array
+(
+    [allow] => 1
+    [user] => admin
+)
+
+
+
+### 30.04.2019 11:28:50
+Array
+(
+    [allow] => 1
+    [user] => admin
+    [orders] => Array
+        (
+            [0] => Array
+                (
+                    [id_order] => 8
+                    [telefon] => 9251234567
+                )
+
+        )
+
+)
+
+
+
+### 30.04.2019 11:28:50
+Array
+(
+    [allow] => 1
+    [user] => admin
+)
+
+
+
+### 30.04.2019 11:28:56
+Array
+(
+    [allow] => 1
+    [user] => admin
+    [products] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 5
+                    [product_name] => Товар5
+                    [description] => Описание товара5
+                    [price] => 500
+                    [total] => 1000
+                    [quantity] => 2
+                    [img] => 05.jpg
+                    [id_session] => svi46u8iifr4a0v5vki6hapsl637qjom
+                )
+
+            [1] => Array
+                (
+                    [id] => 7
+                    [product_name] => Товар7
+                    [description] => Описание товара7
+                    [price] => 300
+                    [total] => 600
+                    [quantity] => 2
+                    [img] => 07.jpg
+                    [id_session] => svi46u8iifr4a0v5vki6hapsl637qjom
+                )
+
+        )
+
+    [id] => 8
+)
+
+
+
+### 30.04.2019 11:28:56
+Array
+(
+    [allow] => 1
+    [user] => admin
+)
+
+
+
+### 30.04.2019 12:44:20
+Array
+(
+    [allow] => 1
+    [user] => admin
+    [username] => Вася
+)
+
+
+
+### 30.04.2019 12:45:33
+Array
+(
+    [allow] => 1
+    [user] => admin
+)
+
+
+
+### 30.04.2019 12:45:42
+Array
+(
+    [allow] => 1
+    [user] => admin
+)
+
+
+
+### 30.04.2019 12:46:41
+Array
+(
+    [allow] => 1
+    [user] => admin
+)
+
+
+
+### 30.04.2019 13:03:09
+Array
+(
+    [allow] => 1
+    [user] => admin
+)
+
+
+
+### 30.04.2019 13:03:09
+Array
+(
+    [allow] => 1
+    [user] => admin
+)
+
+
+
+### 30.04.2019 13:03:58
+Array
+(
+    [allow] => 1
+    [user] => admin
+)
+
+
+
+### 30.04.2019 13:03:58
+Array
+(
+    [allow] => 1
+    [user] => admin
+)
+
+
+
+### 30.04.2019 13:04:35
+Array
+(
+    [allow] => 1
+    [user] => admin
+)
+
+
+
+### 30.04.2019 13:04:35
+Array
+(
+    [allow] => 1
+    [user] => admin
+)
+
+
+
+### 30.04.2019 13:05:04
+Array
+(
+    [allow] => 1
+    [user] => admin
+)
+
+
+
+### 30.04.2019 13:05:04
+Array
+(
+    [allow] => 1
+    [user] => admin
+)
+
+
+
+### 30.04.2019 13:05:11
+Array
+(
+    [allow] => 1
+    [user] => admin
+)
+
+
+
+### 30.04.2019 13:05:11
+Array
+(
+    [allow] => 1
+    [user] => admin
+)
+
+
+
+### 30.04.2019 13:05:33
+Array
+(
+    [allow] => 1
+    [user] => admin
+)
+
+
+
+### 30.04.2019 13:05:33
+Array
+(
+    [allow] => 1
+    [user] => admin
+)
+
+
+
+### 30.04.2019 13:07:40
+Array
+(
+    [allow] => 1
+    [user] => admin
+    [order] => []
+)
+
+
+
+### 30.04.2019 13:07:41
+Array
+(
+    [allow] => 1
+    [user] => admin
+)
+
+
+
+### 30.04.2019 13:08:36
+Array
+(
+    [allow] => 1
+    [user] => admin
+    [order] => []
+)
+
+
+
+### 30.04.2019 13:08:36
+Array
+(
+    [allow] => 1
+    [user] => admin
+)
+
+
+
+### 30.04.2019 13:08:43
+Array
+(
+    [allow] => 1
+    [user] => admin
+    [order] => [{"id":5,"product_name":"Товар5","description":"Описание товара5","price":500,"total":1000,"quantity":2,"img":"05.jpg","id_session":"svi46u8iifr4a0v5vki6hapsl637qjom"},{"id":7,"product_name":"Товар7","description":"Описание товара7","price":300,"total":600,"quantity":2,"img":"07.jpg","id_session":"svi46u8iifr4a0v5vki6hapsl637qjom"}]
+)
+
+
+
+### 30.04.2019 13:08:44
+Array
+(
+    [allow] => 1
+    [user] => admin
+)
+
+
+
+### 30.04.2019 13:11:42
+Array
+(
+    [allow] => 1
+    [user] => admin
+    [order] => [{"id":5,"product_name":"Товар5","description":"Описание товара5","price":500,"total":1000,"quantity":2,"img":"05.jpg","id_session":"svi46u8iifr4a0v5vki6hapsl637qjom"},{"id":7,"product_name":"Товар7","description":"Описание товара7","price":300,"total":600,"quantity":2,"img":"07.jpg","id_session":"svi46u8iifr4a0v5vki6hapsl637qjom"}]
+)
+
+
+
+### 30.04.2019 13:11:42
+Array
+(
+    [allow] => 1
+    [user] => admin
+)
+
+
+
+### 30.04.2019 13:13:01
+Array
+(
+    [allow] => 1
+    [user] => admin
+)
+
+
+
+### 30.04.2019 13:13:01
+Array
+(
+    [allow] => 1
+    [user] => admin
+)
+
+
+
+### 30.04.2019 13:13:02
+Array
+(
+    [allow] => 1
+    [user] => admin
+)
+
+
+
+### 30.04.2019 13:13:02
+Array
+(
+    [allow] => 1
+    [user] => admin
+)
+
+
+
+### 30.04.2019 13:13:03
+Array
+(
+    [allow] => 1
+    [user] => admin
+)
+
+
+
+### 30.04.2019 13:13:03
+Array
+(
+    [allow] => 1
+    [user] => admin
+)
+
+
+
+### 30.04.2019 13:13:03
+Array
+(
+    [allow] => 1
+    [user] => admin
+)
+
+
+
+### 30.04.2019 13:13:03
+Array
+(
+    [allow] => 1
+    [user] => admin
+)
+
+
+
+### 30.04.2019 13:13:03
+Array
+(
+    [allow] => 1
+    [user] => admin
+)
+
+
+
+### 30.04.2019 13:13:03
+Array
+(
+    [allow] => 1
+    [user] => admin
+)
+
+
+
+### 30.04.2019 13:13:15
+Array
+(
+    [allow] => 1
+    [user] => admin
+)
+
+
+
+### 30.04.2019 13:13:15
+Array
+(
+    [allow] => 1
+    [user] => admin
+)
+
+
+
+### 30.04.2019 13:13:46
+Array
+(
+    [allow] => 1
+    [user] => admin
+)
+
+
+
+### 30.04.2019 13:13:46
+Array
+(
+    [allow] => 1
+    [user] => admin
+)
+
+
+
+### 30.04.2019 13:21:40
+Array
+(
+    [allow] => 1
+    [user] => admin
+    [products] => Array
+        (
+        )
+
+    [id] => 
+)
+
+
+
+### 30.04.2019 13:21:40
+Array
+(
+    [allow] => 1
+    [user] => admin
+)
+
+
+
+### 30.04.2019 13:22:41
+Array
+(
+    [allow] => 1
+    [user] => admin
+    [products] => Array
+        (
+        )
+
+    [id] => 
+)
+
+
+
+### 30.04.2019 13:22:42
+Array
+(
+    [allow] => 1
+    [user] => admin
+)
+
+
+
+### 30.04.2019 13:25:37
+Array
+(
+    [allow] => 1
+    [user] => admin
+    [products] => Array
+        (
+        )
+
+    [id] => 
+)
+
+
+
+### 30.04.2019 13:25:37
+Array
+(
+    [allow] => 1
+    [user] => admin
+)
+
+
+
+### 30.04.2019 13:25:41
+Array
+(
+    [allow] => 1
+    [user] => admin
+    [products] => Array
+        (
+        )
+
+    [id] => 9
+)
+
+
+
+### 30.04.2019 13:25:41
+Array
+(
+    [allow] => 1
+    [user] => admin
+)
+
+
+
+### 30.04.2019 13:25:45
+Array
+(
+    [allow] => 1
+    [user] => admin
+    [products] => Array
+        (
+        )
+
+    [id] => 9
+)
+
+
+
+### 30.04.2019 13:25:45
+Array
+(
+    [allow] => 1
+    [user] => admin
+)
+
+
+
+### 30.04.2019 13:26:02
+Array
+(
+    [allow] => 1
+    [user] => admin
+    [orders] => Array
+        (
+            [0] => Array
+                (
+                    [id_order] => 8
+                    [telefon] => 9251234567
+                )
+
+        )
+
+)
+
+
+
+### 30.04.2019 13:26:02
+Array
+(
+    [allow] => 1
+    [user] => admin
+)
+
+
+
+### 30.04.2019 13:26:06
+Array
+(
+    [allow] => 1
+    [user] => admin
+    [products] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 5
+                    [product_name] => Товар5
+                    [description] => Описание товара5
+                    [price] => 500
+                    [total] => 1000
+                    [quantity] => 2
+                    [img] => 05.jpg
+                    [id_session] => svi46u8iifr4a0v5vki6hapsl637qjom
+                )
+
+            [1] => Array
+                (
+                    [id] => 7
+                    [product_name] => Товар7
+                    [description] => Описание товара7
+                    [price] => 300
+                    [total] => 600
+                    [quantity] => 2
+                    [img] => 07.jpg
+                    [id_session] => svi46u8iifr4a0v5vki6hapsl637qjom
+                )
+
+        )
+
+    [id] => 8
+)
+
+
+
+### 30.04.2019 13:26:06
+Array
+(
+    [allow] => 1
+    [user] => admin
+)
+
+
+
+### 30.04.2019 13:29:50
+Array
+(
+    [allow] => 1
+    [user] => admin
+    [products] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 5
+                    [product_name] => Товар5
+                    [description] => Описание товара5
+                    [price] => 500
+                    [total] => 1000
+                    [quantity] => 2
+                    [img] => 05.jpg
+                    [id_session] => svi46u8iifr4a0v5vki6hapsl637qjom
+                )
+
+            [1] => Array
+                (
+                    [id] => 7
+                    [product_name] => Товар7
+                    [description] => Описание товара7
+                    [price] => 300
+                    [total] => 600
+                    [quantity] => 2
+                    [img] => 07.jpg
+                    [id_session] => svi46u8iifr4a0v5vki6hapsl637qjom
+                )
+
+        )
+
+    [id] => 8
+)
+
+
+
+### 30.04.2019 13:29:50
+Array
+(
+    [allow] => 1
+    [user] => admin
+)
+
+
+
+### 30.04.2019 13:30:17
+Array
+(
+    [allow] => 1
+    [user] => admin
+    [products] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 5
+                    [product_name] => Товар5
+                    [description] => Описание товара5
+                    [price] => 500
+                    [total] => 1000
+                    [quantity] => 2
+                    [img] => 05.jpg
+                    [id_session] => svi46u8iifr4a0v5vki6hapsl637qjom
+                )
+
+            [1] => Array
+                (
+                    [id] => 7
+                    [product_name] => Товар7
+                    [description] => Описание товара7
+                    [price] => 300
+                    [total] => 600
+                    [quantity] => 2
+                    [img] => 07.jpg
+                    [id_session] => svi46u8iifr4a0v5vki6hapsl637qjom
+                )
+
+        )
+
+    [id] => 8
+)
+
+
+
+### 30.04.2019 13:30:17
+Array
+(
+    [allow] => 1
+    [user] => admin
+)
+
+
+
+### 30.04.2019 13:34:29
+Array
+(
+    [allow] => 1
+    [user] => admin
+    [products] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 5
+                    [product_name] => Товар5
+                    [description] => Описание товара5
+                    [price] => 500
+                    [total] => 1000
+                    [quantity] => 2
+                    [img] => 05.jpg
+                    [id_session] => svi46u8iifr4a0v5vki6hapsl637qjom
+                )
+
+            [1] => Array
+                (
+                    [id] => 7
+                    [product_name] => Товар7
+                    [description] => Описание товара7
+                    [price] => 300
+                    [total] => 600
+                    [quantity] => 2
+                    [img] => 07.jpg
+                    [id_session] => svi46u8iifr4a0v5vki6hapsl637qjom
+                )
+
+        )
+
+    [id] => 8
+)
+
+
+
+### 30.04.2019 13:34:29
+Array
+(
+    [allow] => 1
+    [user] => admin
+)
+
+
+
+### 30.04.2019 13:35:20
+Array
+(
+    [allow] => 1
+    [user] => admin
+    [products] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 5
+                    [product_name] => Товар5
+                    [description] => Описание товара5
+                    [price] => 500
+                    [total] => 1000
+                    [quantity] => 2
+                    [img] => 05.jpg
+                    [id_session] => svi46u8iifr4a0v5vki6hapsl637qjom
+                )
+
+            [1] => Array
+                (
+                    [id] => 7
+                    [product_name] => Товар7
+                    [description] => Описание товара7
+                    [price] => 300
+                    [total] => 600
+                    [quantity] => 2
+                    [img] => 07.jpg
+                    [id_session] => svi46u8iifr4a0v5vki6hapsl637qjom
+                )
+
+        )
+
+    [id] => 8
+)
+
+
+
+### 30.04.2019 13:35:20
+Array
+(
+    [allow] => 1
+    [user] => admin
+)
+
+
+
+### 30.04.2019 13:35:43
+Array
+(
+    [allow] => 1
+    [user] => admin
+    [products] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 5
+                    [product_name] => Товар5
+                    [description] => Описание товара5
+                    [price] => 500
+                    [total] => 1000
+                    [quantity] => 2
+                    [img] => 05.jpg
+                    [id_session] => svi46u8iifr4a0v5vki6hapsl637qjom
+                )
+
+            [1] => Array
+                (
+                    [id] => 7
+                    [product_name] => Товар7
+                    [description] => Описание товара7
+                    [price] => 300
+                    [total] => 600
+                    [quantity] => 2
+                    [img] => 07.jpg
+                    [id_session] => svi46u8iifr4a0v5vki6hapsl637qjom
+                )
+
+        )
+
+    [id] => 8
+)
+
+
+
+### 30.04.2019 13:35:43
+Array
+(
+    [allow] => 1
+    [user] => admin
+)
+
+
+
+### 30.04.2019 13:36:02
+Array
+(
+    [allow] => 1
+    [user] => admin
+    [products] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 5
+                    [product_name] => Товар5
+                    [description] => Описание товара5
+                    [price] => 500
+                    [total] => 1000
+                    [quantity] => 2
+                    [img] => 05.jpg
+                    [id_session] => svi46u8iifr4a0v5vki6hapsl637qjom
+                )
+
+            [1] => Array
+                (
+                    [id] => 7
+                    [product_name] => Товар7
+                    [description] => Описание товара7
+                    [price] => 300
+                    [total] => 600
+                    [quantity] => 2
+                    [img] => 07.jpg
+                    [id_session] => svi46u8iifr4a0v5vki6hapsl637qjom
+                )
+
+        )
+
+    [id] => 8
+)
+
+
+
+### 30.04.2019 13:36:02
+Array
+(
+    [allow] => 1
+    [user] => admin
+)
+
+
+
+### 30.04.2019 13:36:14
+Array
+(
+    [allow] => 1
+    [user] => admin
+    [products] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 5
+                    [product_name] => Товар5
+                    [description] => Описание товара5
+                    [price] => 500
+                    [total] => 1000
+                    [quantity] => 2
+                    [img] => 05.jpg
+                    [id_session] => svi46u8iifr4a0v5vki6hapsl637qjom
+                )
+
+            [1] => Array
+                (
+                    [id] => 7
+                    [product_name] => Товар7
+                    [description] => Описание товара7
+                    [price] => 300
+                    [total] => 600
+                    [quantity] => 2
+                    [img] => 07.jpg
+                    [id_session] => svi46u8iifr4a0v5vki6hapsl637qjom
+                )
+
+        )
+
+    [id] => 8
+)
+
+
+
+### 30.04.2019 13:36:15
+Array
+(
+    [allow] => 1
+    [user] => admin
+)
+
+
+
+### 30.04.2019 13:37:14
+Array
+(
+    [allow] => 1
+    [user] => admin
+    [products] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 5
+                    [product_name] => Товар5
+                    [description] => Описание товара5
+                    [price] => 500
+                    [total] => 1000
+                    [quantity] => 2
+                    [img] => 05.jpg
+                    [id_session] => svi46u8iifr4a0v5vki6hapsl637qjom
+                )
+
+            [1] => Array
+                (
+                    [id] => 7
+                    [product_name] => Товар7
+                    [description] => Описание товара7
+                    [price] => 300
+                    [total] => 600
+                    [quantity] => 2
+                    [img] => 07.jpg
+                    [id_session] => svi46u8iifr4a0v5vki6hapsl637qjom
+                )
+
+        )
+
+    [id] => 8
+)
+
+
+
+### 30.04.2019 13:54:02
+Array
+(
+    [allow] => 1
+    [user] => admin
+    [products] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 5
+                    [product_name] => Товар5
+                    [description] => Описание товара5
+                    [price] => 500
+                    [total] => 1000
+                    [quantity] => 2
+                    [img] => 05.jpg
+                    [id_session] => svi46u8iifr4a0v5vki6hapsl637qjom
+                )
+
+            [1] => Array
+                (
+                    [id] => 7
+                    [product_name] => Товар7
+                    [description] => Описание товара7
+                    [price] => 300
+                    [total] => 600
+                    [quantity] => 2
+                    [img] => 07.jpg
+                    [id_session] => svi46u8iifr4a0v5vki6hapsl637qjom
+                )
+
+        )
+
+    [id] => 8
+)
+
+
+
+### 30.04.2019 13:54:05
+Array
+(
+    [allow] => 1
+    [user] => admin
+)
+
+
+
+### 30.04.2019 13:54:07
+Array
+(
+    [allow] => 1
+    [user] => admin
+    [products] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 5
+                    [product_name] => Товар5
+                    [description] => Описание товара5
+                    [price] => 500
+                    [total] => 1000
+                    [quantity] => 2
+                    [img] => 05.jpg
+                    [id_session] => svi46u8iifr4a0v5vki6hapsl637qjom
+                )
+
+            [1] => Array
+                (
+                    [id] => 7
+                    [product_name] => Товар7
+                    [description] => Описание товара7
+                    [price] => 300
+                    [total] => 600
+                    [quantity] => 2
+                    [img] => 07.jpg
+                    [id_session] => svi46u8iifr4a0v5vki6hapsl637qjom
+                )
+
+        )
+
+    [id] => 8
+)
+
+
+
+### 30.04.2019 13:54:08
+Array
+(
+    [allow] => 1
+    [user] => admin
+)
+
+
+
+### 30.04.2019 13:54:45
+Array
+(
+    [allow] => 1
+    [user] => admin
+    [products] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 5
+                    [product_name] => Товар5
+                    [description] => Описание товара5
+                    [price] => 500
+                    [total] => 1000
+                    [quantity] => 2
+                    [img] => 05.jpg
+                    [id_session] => svi46u8iifr4a0v5vki6hapsl637qjom
+                )
+
+            [1] => Array
+                (
+                    [id] => 7
+                    [product_name] => Товар7
+                    [description] => Описание товара7
+                    [price] => 300
+                    [total] => 600
+                    [quantity] => 2
+                    [img] => 07.jpg
+                    [id_session] => svi46u8iifr4a0v5vki6hapsl637qjom
+                )
+
+        )
+
+    [id] => 8
+)
+
+
+
+### 30.04.2019 13:54:45
+Array
+(
+    [allow] => 1
+    [user] => admin
+)
+
+
+
+### 30.04.2019 13:55:45
+Array
+(
+    [allow] => 1
+    [user] => admin
+    [products] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 5
+                    [product_name] => Товар5
+                    [description] => Описание товара5
+                    [price] => 500
+                    [total] => 1000
+                    [quantity] => 2
+                    [img] => 05.jpg
+                    [id_session] => svi46u8iifr4a0v5vki6hapsl637qjom
+                )
+
+            [1] => Array
+                (
+                    [id] => 7
+                    [product_name] => Товар7
+                    [description] => Описание товара7
+                    [price] => 300
+                    [total] => 600
+                    [quantity] => 2
+                    [img] => 07.jpg
+                    [id_session] => svi46u8iifr4a0v5vki6hapsl637qjom
+                )
+
+        )
+
+    [id] => 8
+)
+
+
+
+### 30.04.2019 13:55:45
+Array
+(
+    [allow] => 1
+    [user] => admin
+)
+
+
+
+### 30.04.2019 13:56:26
+Array
+(
+    [allow] => 1
+    [user] => admin
+    [products] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 5
+                    [product_name] => Товар5
+                    [description] => Описание товара5
+                    [price] => 500
+                    [total] => 1000
+                    [quantity] => 2
+                    [img] => 05.jpg
+                    [id_session] => svi46u8iifr4a0v5vki6hapsl637qjom
+                )
+
+            [1] => Array
+                (
+                    [id] => 7
+                    [product_name] => Товар7
+                    [description] => Описание товара7
+                    [price] => 300
+                    [total] => 600
+                    [quantity] => 2
+                    [img] => 07.jpg
+                    [id_session] => svi46u8iifr4a0v5vki6hapsl637qjom
+                )
+
+        )
+
+    [id] => 8
+)
+
+
+
+### 30.04.2019 13:56:26
+Array
+(
+    [allow] => 1
+    [user] => admin
+)
+
+
+
+### 30.04.2019 13:57:39
+Array
+(
+    [allow] => 1
+    [user] => admin
+    [products] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 5
+                    [product_name] => Товар5
+                    [description] => Описание товара5
+                    [price] => 500
+                    [total] => 1000
+                    [quantity] => 2
+                    [img] => 05.jpg
+                    [id_session] => svi46u8iifr4a0v5vki6hapsl637qjom
+                )
+
+            [1] => Array
+                (
+                    [id] => 7
+                    [product_name] => Товар7
+                    [description] => Описание товара7
+                    [price] => 300
+                    [total] => 600
+                    [quantity] => 2
+                    [img] => 07.jpg
+                    [id_session] => svi46u8iifr4a0v5vki6hapsl637qjom
+                )
+
+        )
+
+    [id] => 8
+)
+
+
+
+### 30.04.2019 13:57:39
+Array
+(
+    [allow] => 1
+    [user] => admin
+)
+
+
+
+### 30.04.2019 13:58:30
+Array
+(
+    [allow] => 1
+    [user] => admin
+    [products] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 5
+                    [product_name] => Товар5
+                    [description] => Описание товара5
+                    [price] => 500
+                    [total] => 1000
+                    [quantity] => 2
+                    [img] => 05.jpg
+                    [id_session] => svi46u8iifr4a0v5vki6hapsl637qjom
+                )
+
+            [1] => Array
+                (
+                    [id] => 7
+                    [product_name] => Товар7
+                    [description] => Описание товара7
+                    [price] => 300
+                    [total] => 600
+                    [quantity] => 2
+                    [img] => 07.jpg
+                    [id_session] => svi46u8iifr4a0v5vki6hapsl637qjom
+                )
+
+        )
+
+    [id] => 8
+)
+
+
+
+### 30.04.2019 13:58:30
+Array
+(
+    [allow] => 1
+    [user] => admin
+)
+
+
+
+### 30.04.2019 13:58:55
+Array
+(
+    [allow] => 1
+    [user] => admin
+    [products] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 5
+                    [product_name] => Товар5
+                    [description] => Описание товара5
+                    [price] => 500
+                    [total] => 1000
+                    [quantity] => 2
+                    [img] => 05.jpg
+                    [id_session] => svi46u8iifr4a0v5vki6hapsl637qjom
+                )
+
+            [1] => Array
+                (
+                    [id] => 7
+                    [product_name] => Товар7
+                    [description] => Описание товара7
+                    [price] => 300
+                    [total] => 600
+                    [quantity] => 2
+                    [img] => 07.jpg
+                    [id_session] => svi46u8iifr4a0v5vki6hapsl637qjom
+                )
+
+        )
+
+    [id] => 8
+)
+
+
+
+### 30.04.2019 13:58:55
+Array
+(
+    [allow] => 1
+    [user] => admin
+)
+
+
+
+### 30.04.2019 14:55:58
+Array
+(
+    [allow] => 1
+    [user] => admin
+    [products] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 5
+                    [product_name] => Товар5
+                    [description] => Описание товара5
+                    [price] => 500
+                    [total] => 1000
+                    [quantity] => 2
+                    [img] => 05.jpg
+                    [id_session] => svi46u8iifr4a0v5vki6hapsl637qjom
+                )
+
+            [1] => Array
+                (
+                    [id] => 7
+                    [product_name] => Товар7
+                    [description] => Описание товара7
+                    [price] => 300
+                    [total] => 600
+                    [quantity] => 2
+                    [img] => 07.jpg
+                    [id_session] => svi46u8iifr4a0v5vki6hapsl637qjom
+                )
+
+        )
+
+    [id] => 8
+)
+
+
+
+### 30.04.2019 14:55:58
+Array
+(
+    [allow] => 1
+    [user] => admin
+)
+
+
+
+### 30.04.2019 14:57:33
+Array
+(
+    [allow] => 1
+    [user] => admin
+    [products] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 5
+                    [product_name] => Товар5
+                    [description] => Описание товара5
+                    [price] => 500
+                    [total] => 1000
+                    [quantity] => 2
+                    [img] => 05.jpg
+                    [id_session] => svi46u8iifr4a0v5vki6hapsl637qjom
+                )
+
+            [1] => Array
+                (
+                    [id] => 7
+                    [product_name] => Товар7
+                    [description] => Описание товара7
+                    [price] => 300
+                    [total] => 600
+                    [quantity] => 2
+                    [img] => 07.jpg
+                    [id_session] => svi46u8iifr4a0v5vki6hapsl637qjom
+                )
+
+        )
+
+    [id] => 8
+)
+
+
+
+### 30.04.2019 14:57:33
+Array
+(
+    [allow] => 1
+    [user] => admin
+)
+
+
+
+### 30.04.2019 14:57:50
+Array
+(
+    [allow] => 1
+    [user] => admin
+    [products] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 5
+                    [product_name] => Товар5
+                    [description] => Описание товара5
+                    [price] => 500
+                    [total] => 1000
+                    [quantity] => 2
+                    [img] => 05.jpg
+                    [id_session] => svi46u8iifr4a0v5vki6hapsl637qjom
+                )
+
+            [1] => Array
+                (
+                    [id] => 7
+                    [product_name] => Товар7
+                    [description] => Описание товара7
+                    [price] => 300
+                    [total] => 600
+                    [quantity] => 2
+                    [img] => 07.jpg
+                    [id_session] => svi46u8iifr4a0v5vki6hapsl637qjom
+                )
+
+        )
+
+    [id] => 8
+)
+
+
+
+### 30.04.2019 14:57:51
+Array
+(
+    [allow] => 1
+    [user] => admin
+)
+
+
+
+### 30.04.2019 14:58:23
+Array
+(
+    [allow] => 1
+    [user] => admin
+    [products] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 5
+                    [product_name] => Товар5
+                    [description] => Описание товара5
+                    [price] => 500
+                    [total] => 1000
+                    [quantity] => 2
+                    [img] => 05.jpg
+                    [id_session] => svi46u8iifr4a0v5vki6hapsl637qjom
+                )
+
+            [1] => Array
+                (
+                    [id] => 7
+                    [product_name] => Товар7
+                    [description] => Описание товара7
+                    [price] => 300
+                    [total] => 600
+                    [quantity] => 2
+                    [img] => 07.jpg
+                    [id_session] => svi46u8iifr4a0v5vki6hapsl637qjom
+                )
+
+        )
+
+    [id] => 8
+)
+
+
+
+### 30.04.2019 14:58:24
+Array
+(
+    [allow] => 1
+    [user] => admin
+)
+
+
+
+### 30.04.2019 14:58:45
+Array
+(
+    [allow] => 1
+    [user] => admin
+    [products] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 5
+                    [product_name] => Товар5
+                    [description] => Описание товара5
+                    [price] => 500
+                    [total] => 1000
+                    [quantity] => 2
+                    [img] => 05.jpg
+                    [id_session] => svi46u8iifr4a0v5vki6hapsl637qjom
+                )
+
+            [1] => Array
+                (
+                    [id] => 7
+                    [product_name] => Товар7
+                    [description] => Описание товара7
+                    [price] => 300
+                    [total] => 600
+                    [quantity] => 2
+                    [img] => 07.jpg
+                    [id_session] => svi46u8iifr4a0v5vki6hapsl637qjom
+                )
+
+        )
+
+    [id] => 8
+)
+
+
+
+### 30.04.2019 14:58:45
+Array
+(
+    [allow] => 1
+    [user] => admin
+)
+
+
+
+### 30.04.2019 14:59:36
+Array
+(
+    [allow] => 1
+    [user] => admin
+    [products] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 5
+                    [product_name] => Товар5
+                    [description] => Описание товара5
+                    [price] => 500
+                    [total] => 1000
+                    [quantity] => 2
+                    [img] => 05.jpg
+                    [id_session] => svi46u8iifr4a0v5vki6hapsl637qjom
+                )
+
+            [1] => Array
+                (
+                    [id] => 7
+                    [product_name] => Товар7
+                    [description] => Описание товара7
+                    [price] => 300
+                    [total] => 600
+                    [quantity] => 2
+                    [img] => 07.jpg
+                    [id_session] => svi46u8iifr4a0v5vki6hapsl637qjom
+                )
+
+        )
+
+    [id] => 8
+)
+
+
+
+### 30.04.2019 14:59:36
+Array
+(
+    [allow] => 1
+    [user] => admin
+)
+
+
+
+### 30.04.2019 15:00:04
+Array
+(
+    [allow] => 1
+    [user] => admin
+    [products] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 5
+                    [product_name] => Товар5
+                    [description] => Описание товара5
+                    [price] => 500
+                    [total] => 1000
+                    [quantity] => 2
+                    [img] => 05.jpg
+                    [id_session] => svi46u8iifr4a0v5vki6hapsl637qjom
+                )
+
+            [1] => Array
+                (
+                    [id] => 7
+                    [product_name] => Товар7
+                    [description] => Описание товара7
+                    [price] => 300
+                    [total] => 600
+                    [quantity] => 2
+                    [img] => 07.jpg
+                    [id_session] => svi46u8iifr4a0v5vki6hapsl637qjom
+                )
+
+        )
+
+    [id] => 8
+)
+
+
+
+### 30.04.2019 15:00:04
+Array
+(
+    [allow] => 1
+    [user] => admin
+)
+
+
+
+### 30.04.2019 15:00:24
+Array
+(
+    [allow] => 1
+    [user] => admin
+    [products] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 5
+                    [product_name] => Товар5
+                    [description] => Описание товара5
+                    [price] => 500
+                    [total] => 1000
+                    [quantity] => 2
+                    [img] => 05.jpg
+                    [id_session] => svi46u8iifr4a0v5vki6hapsl637qjom
+                )
+
+            [1] => Array
+                (
+                    [id] => 7
+                    [product_name] => Товар7
+                    [description] => Описание товара7
+                    [price] => 300
+                    [total] => 600
+                    [quantity] => 2
+                    [img] => 07.jpg
+                    [id_session] => svi46u8iifr4a0v5vki6hapsl637qjom
+                )
+
+        )
+
+    [id] => 8
+)
+
+
+
+### 30.04.2019 15:00:24
+Array
+(
+    [allow] => 1
+    [user] => admin
+)
+
+
+
+### 30.04.2019 15:00:53
+Array
+(
+    [allow] => 1
+    [user] => admin
+    [products] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 5
+                    [product_name] => Товар5
+                    [description] => Описание товара5
+                    [price] => 500
+                    [total] => 1000
+                    [quantity] => 2
+                    [img] => 05.jpg
+                    [id_session] => svi46u8iifr4a0v5vki6hapsl637qjom
+                )
+
+            [1] => Array
+                (
+                    [id] => 7
+                    [product_name] => Товар7
+                    [description] => Описание товара7
+                    [price] => 300
+                    [total] => 600
+                    [quantity] => 2
+                    [img] => 07.jpg
+                    [id_session] => svi46u8iifr4a0v5vki6hapsl637qjom
+                )
+
+        )
+
+    [id] => 8
+)
+
+
+
+### 30.04.2019 15:00:53
+Array
+(
+    [allow] => 1
+    [user] => admin
+)
+
+
+
+### 30.04.2019 15:01:32
+Array
+(
+    [allow] => 1
+    [user] => admin
+    [products] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 5
+                    [product_name] => Товар5
+                    [description] => Описание товара5
+                    [price] => 500
+                    [total] => 1000
+                    [quantity] => 2
+                    [img] => 05.jpg
+                    [id_session] => svi46u8iifr4a0v5vki6hapsl637qjom
+                )
+
+            [1] => Array
+                (
+                    [id] => 7
+                    [product_name] => Товар7
+                    [description] => Описание товара7
+                    [price] => 300
+                    [total] => 600
+                    [quantity] => 2
+                    [img] => 07.jpg
+                    [id_session] => svi46u8iifr4a0v5vki6hapsl637qjom
+                )
+
+        )
+
+    [id] => 8
+)
+
+
+
+### 30.04.2019 15:01:32
+Array
+(
+    [allow] => 1
+    [user] => admin
+)
+
+
+
+### 30.04.2019 15:01:59
+Array
+(
+    [allow] => 1
+    [user] => admin
+    [products] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 5
+                    [product_name] => Товар5
+                    [description] => Описание товара5
+                    [price] => 500
+                    [total] => 1000
+                    [quantity] => 2
+                    [img] => 05.jpg
+                    [id_session] => svi46u8iifr4a0v5vki6hapsl637qjom
+                )
+
+            [1] => Array
+                (
+                    [id] => 7
+                    [product_name] => Товар7
+                    [description] => Описание товара7
+                    [price] => 300
+                    [total] => 600
+                    [quantity] => 2
+                    [img] => 07.jpg
+                    [id_session] => svi46u8iifr4a0v5vki6hapsl637qjom
+                )
+
+        )
+
+    [id] => 8
+)
+
+
+
+### 30.04.2019 15:01:59
+Array
+(
+    [allow] => 1
+    [user] => admin
+)
+
+
+
+### 30.04.2019 15:02:39
+Array
+(
+    [allow] => 1
+    [user] => admin
+    [products] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 5
+                    [product_name] => Товар5
+                    [description] => Описание товара5
+                    [price] => 500
+                    [total] => 1000
+                    [quantity] => 2
+                    [img] => 05.jpg
+                    [id_session] => svi46u8iifr4a0v5vki6hapsl637qjom
+                )
+
+            [1] => Array
+                (
+                    [id] => 7
+                    [product_name] => Товар7
+                    [description] => Описание товара7
+                    [price] => 300
+                    [total] => 600
+                    [quantity] => 2
+                    [img] => 07.jpg
+                    [id_session] => svi46u8iifr4a0v5vki6hapsl637qjom
+                )
+
+        )
+
+    [id] => 8
+)
+
+
+
+### 30.04.2019 15:02:39
+Array
+(
+    [allow] => 1
+    [user] => admin
+)
+
+
+
+### 30.04.2019 15:02:42
+Array
+(
+    [allow] => 1
+    [user] => admin
+    [products] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 5
+                    [product_name] => Товар5
+                    [description] => Описание товара5
+                    [price] => 500
+                    [total] => 1000
+                    [quantity] => 2
+                    [img] => 05.jpg
+                    [id_session] => svi46u8iifr4a0v5vki6hapsl637qjom
+                )
+
+            [1] => Array
+                (
+                    [id] => 7
+                    [product_name] => Товар7
+                    [description] => Описание товара7
+                    [price] => 300
+                    [total] => 600
+                    [quantity] => 2
+                    [img] => 07.jpg
+                    [id_session] => svi46u8iifr4a0v5vki6hapsl637qjom
+                )
+
+        )
+
+    [id] => 8
+)
+
+
+
+### 30.04.2019 15:02:42
+Array
+(
+    [allow] => 1
+    [user] => admin
+)
+
+
+
+### 30.04.2019 15:05:07
+Array
+(
+    [allow] => 1
+    [user] => admin
+    [products] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 5
+                    [product_name] => Товар5
+                    [description] => Описание товара5
+                    [price] => 500
+                    [total] => 1000
+                    [quantity] => 2
+                    [img] => 05.jpg
+                    [id_session] => svi46u8iifr4a0v5vki6hapsl637qjom
+                )
+
+            [1] => Array
+                (
+                    [id] => 7
+                    [product_name] => Товар7
+                    [description] => Описание товара7
+                    [price] => 300
+                    [total] => 600
+                    [quantity] => 2
+                    [img] => 07.jpg
+                    [id_session] => svi46u8iifr4a0v5vki6hapsl637qjom
+                )
+
+        )
+
+    [id] => 8
+)
+
+
+
+### 30.04.2019 15:05:07
+Array
+(
+    [allow] => 1
+    [user] => admin
+)
+
+
+
+### 30.04.2019 15:05:23
+Array
+(
+    [allow] => 1
+    [user] => admin
+    [products] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 5
+                    [product_name] => Товар5
+                    [description] => Описание товара5
+                    [price] => 500
+                    [total] => 1000
+                    [quantity] => 2
+                    [img] => 05.jpg
+                    [id_session] => svi46u8iifr4a0v5vki6hapsl637qjom
+                )
+
+            [1] => Array
+                (
+                    [id] => 7
+                    [product_name] => Товар7
+                    [description] => Описание товара7
+                    [price] => 300
+                    [total] => 600
+                    [quantity] => 2
+                    [img] => 07.jpg
+                    [id_session] => svi46u8iifr4a0v5vki6hapsl637qjom
+                )
+
+        )
+
+    [id] => 8
+)
+
+
+
+### 30.04.2019 15:05:23
+Array
+(
+    [allow] => 1
+    [user] => admin
+)
+
+
+
+### 30.04.2019 15:06:23
+Array
+(
+    [allow] => 1
+    [user] => admin
+    [products] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 5
+                    [product_name] => Товар5
+                    [description] => Описание товара5
+                    [price] => 500
+                    [total] => 1000
+                    [quantity] => 2
+                    [img] => 05.jpg
+                    [id_session] => svi46u8iifr4a0v5vki6hapsl637qjom
+                )
+
+            [1] => Array
+                (
+                    [id] => 7
+                    [product_name] => Товар7
+                    [description] => Описание товара7
+                    [price] => 300
+                    [total] => 600
+                    [quantity] => 2
+                    [img] => 07.jpg
+                    [id_session] => svi46u8iifr4a0v5vki6hapsl637qjom
+                )
+
+        )
+
+    [id] => 8
+)
+
+
+
+### 30.04.2019 15:06:23
+Array
+(
+    [allow] => 1
+    [user] => admin
+)
+
+
+
+### 30.04.2019 15:07:00
+Array
+(
+    [allow] => 1
+    [user] => admin
+    [products] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 5
+                    [product_name] => Товар5
+                    [description] => Описание товара5
+                    [price] => 500
+                    [total] => 1000
+                    [quantity] => 2
+                    [img] => 05.jpg
+                    [id_session] => svi46u8iifr4a0v5vki6hapsl637qjom
+                )
+
+            [1] => Array
+                (
+                    [id] => 7
+                    [product_name] => Товар7
+                    [description] => Описание товара7
+                    [price] => 300
+                    [total] => 600
+                    [quantity] => 2
+                    [img] => 07.jpg
+                    [id_session] => svi46u8iifr4a0v5vki6hapsl637qjom
+                )
+
+        )
+
+    [id] => 8
+)
+
+
+
+### 30.04.2019 15:07:00
+Array
+(
+    [allow] => 1
+    [user] => admin
+)
+
+
+
+### 30.04.2019 15:08:09
+Array
+(
+    [allow] => 1
+    [user] => admin
+    [products] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 5
+                    [product_name] => Товар5
+                    [description] => Описание товара5
+                    [price] => 500
+                    [total] => 1000
+                    [quantity] => 2
+                    [img] => 05.jpg
+                    [id_session] => svi46u8iifr4a0v5vki6hapsl637qjom
+                )
+
+            [1] => Array
+                (
+                    [id] => 7
+                    [product_name] => Товар7
+                    [description] => Описание товара7
+                    [price] => 300
+                    [total] => 600
+                    [quantity] => 2
+                    [img] => 07.jpg
+                    [id_session] => svi46u8iifr4a0v5vki6hapsl637qjom
+                )
+
+        )
+
+    [id] => 8
+)
+
+
+
+### 30.04.2019 15:08:09
+Array
+(
+    [allow] => 1
+    [user] => admin
+)
+
+
+
+### 30.04.2019 15:08:54
+Array
+(
+    [allow] => 1
+    [user] => admin
+    [products] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 5
+                    [product_name] => Товар5
+                    [description] => Описание товара5
+                    [price] => 500
+                    [total] => 1000
+                    [quantity] => 2
+                    [img] => 05.jpg
+                    [id_session] => svi46u8iifr4a0v5vki6hapsl637qjom
+                )
+
+            [1] => Array
+                (
+                    [id] => 7
+                    [product_name] => Товар7
+                    [description] => Описание товара7
+                    [price] => 300
+                    [total] => 600
+                    [quantity] => 2
+                    [img] => 07.jpg
+                    [id_session] => svi46u8iifr4a0v5vki6hapsl637qjom
+                )
+
+        )
+
+    [id] => 8
+)
+
+
+
+### 30.04.2019 15:08:54
+Array
+(
+    [allow] => 1
+    [user] => admin
+)
+
+
+
+### 30.04.2019 15:08:57
+Array
+(
+    [allow] => 1
+    [user] => admin
+)
+
+
+
+### 30.04.2019 15:09:10
+Array
+(
+    [allow] => 1
+    [user] => admin
+    [products] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 5
+                    [product_name] => Товар5
+                    [description] => Описание товара5
+                    [price] => 500
+                    [total] => 1000
+                    [quantity] => 2
+                    [img] => 05.jpg
+                    [id_session] => svi46u8iifr4a0v5vki6hapsl637qjom
+                )
+
+            [1] => Array
+                (
+                    [id] => 7
+                    [product_name] => Товар7
+                    [description] => Описание товара7
+                    [price] => 300
+                    [total] => 600
+                    [quantity] => 2
+                    [img] => 07.jpg
+                    [id_session] => svi46u8iifr4a0v5vki6hapsl637qjom
+                )
+
+        )
+
+    [id] => 8
+)
+
+
+
+### 30.04.2019 15:09:11
+Array
+(
+    [allow] => 1
+    [user] => admin
+)
+
+
+
+### 30.04.2019 15:09:13
+Array
+(
+    [allow] => 1
+    [user] => admin
+)
+
+
+
+### 30.04.2019 15:09:27
+Array
+(
+    [allow] => 1
+    [user] => admin
+    [products] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 5
+                    [product_name] => Товар5
+                    [description] => Описание товара5
+                    [price] => 500
+                    [total] => 1000
+                    [quantity] => 2
+                    [img] => 05.jpg
+                    [id_session] => svi46u8iifr4a0v5vki6hapsl637qjom
+                )
+
+            [1] => Array
+                (
+                    [id] => 7
+                    [product_name] => Товар7
+                    [description] => Описание товара7
+                    [price] => 300
+                    [total] => 600
+                    [quantity] => 2
+                    [img] => 07.jpg
+                    [id_session] => svi46u8iifr4a0v5vki6hapsl637qjom
+                )
+
+        )
+
+    [id] => 8
+)
+
+
+
+### 30.04.2019 15:09:28
+Array
+(
+    [allow] => 1
+    [user] => admin
+)
+
+
+
+### 30.04.2019 15:09:39
+Array
+(
+    [allow] => 1
+    [user] => admin
+    [username] => Вася
+)
+
+
+
+### 30.04.2019 15:09:39
+Array
+(
+    [allow] => 1
+    [user] => admin
+)
+
+
+
+### 30.04.2019 15:10:02
+Array
+(
+    [allow] => 1
+    [user] => admin
+)
+
+
+
+### 30.04.2019 15:10:02
+Array
+(
+    [allow] => 1
+    [user] => admin
+)
+
+
+
+### 30.04.2019 15:10:20
+Array
+(
+    [allow] => 1
+    [user] => admin
+)
+
+
+
+### 30.04.2019 15:10:50
+Array
+(
+    [allow] => 1
+    [user] => admin
+)
+
+
+
+### 30.04.2019 15:10:50
+Array
+(
+    [allow] => 1
+    [user] => admin
+)
+
+
+
+### 30.04.2019 15:10:52
+Array
+(
+    [allow] => 1
+    [user] => admin
+)
+
+
+
+### 30.04.2019 15:10:52
+Array
+(
+    [allow] => 1
+    [user] => admin
+)
+
+
+
+### 30.04.2019 15:10:56
+Array
+(
+    [allow] => 1
+    [user] => admin
+    [products] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 5
+                    [product_name] => Товар5
+                    [description] => Описание товара5
+                    [price] => 500
+                    [total] => 1000
+                    [quantity] => 2
+                    [img] => 05.jpg
+                    [id_session] => svi46u8iifr4a0v5vki6hapsl637qjom
+                )
+
+            [1] => Array
+                (
+                    [id] => 7
+                    [product_name] => Товар7
+                    [description] => Описание товара7
+                    [price] => 300
+                    [total] => 600
+                    [quantity] => 2
+                    [img] => 07.jpg
+                    [id_session] => svi46u8iifr4a0v5vki6hapsl637qjom
+                )
+
+        )
+
+    [id] => 8
+)
+
+
+
+### 30.04.2019 15:10:57
+Array
+(
+    [allow] => 1
+    [user] => admin
+)
+
+
+
+### 30.04.2019 15:10:58
+Array
+(
+    [allow] => 1
+    [user] => admin
+)
+
+
+
+### 30.04.2019 15:12:56
+Array
+(
+    [allow] => 1
+    [user] => admin
+    [products] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 5
+                    [product_name] => Товар5
+                    [description] => Описание товара5
+                    [price] => 500
+                    [total] => 1000
+                    [quantity] => 2
+                    [img] => 05.jpg
+                    [id_session] => svi46u8iifr4a0v5vki6hapsl637qjom
+                )
+
+            [1] => Array
+                (
+                    [id] => 7
+                    [product_name] => Товар7
+                    [description] => Описание товара7
+                    [price] => 300
+                    [total] => 600
+                    [quantity] => 2
+                    [img] => 07.jpg
+                    [id_session] => svi46u8iifr4a0v5vki6hapsl637qjom
+                )
+
+        )
+
+    [id] => 8
+)
+
+
+
+### 30.04.2019 15:12:56
+Array
+(
+    [allow] => 1
+    [user] => admin
+)
+
+
+
+### 30.04.2019 15:13:04
+Array
+(
+    [allow] => 1
+    [user] => admin
+    [products] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 5
+                    [product_name] => Товар5
+                    [description] => Описание товара5
+                    [price] => 500
+                    [total] => 1000
+                    [quantity] => 2
+                    [img] => 05.jpg
+                    [id_session] => svi46u8iifr4a0v5vki6hapsl637qjom
+                )
+
+            [1] => Array
+                (
+                    [id] => 7
+                    [product_name] => Товар7
+                    [description] => Описание товара7
+                    [price] => 300
+                    [total] => 600
+                    [quantity] => 2
+                    [img] => 07.jpg
+                    [id_session] => svi46u8iifr4a0v5vki6hapsl637qjom
+                )
+
+        )
+
+    [id] => 8
+)
+
+
+
+### 30.04.2019 15:13:04
+Array
+(
+    [allow] => 1
+    [user] => admin
+)
+
+
+
+### 30.04.2019 15:16:18
+Array
+(
+    [allow] => 1
+    [user] => admin
+    [products] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 5
+                    [product_name] => Товар5
+                    [description] => Описание товара5
+                    [price] => 500
+                    [total] => 1000
+                    [quantity] => 2
+                    [img] => 05.jpg
+                    [id_session] => svi46u8iifr4a0v5vki6hapsl637qjom
+                )
+
+            [1] => Array
+                (
+                    [id] => 7
+                    [product_name] => Товар7
+                    [description] => Описание товара7
+                    [price] => 300
+                    [total] => 600
+                    [quantity] => 2
+                    [img] => 07.jpg
+                    [id_session] => svi46u8iifr4a0v5vki6hapsl637qjom
+                )
+
+        )
+
+    [id] => 8
+)
+
+
+
+### 30.04.2019 15:16:18
+Array
+(
+    [allow] => 1
+    [user] => admin
+)
+
+
+
+### 30.04.2019 15:16:20
+Array
+(
+    [allow] => 1
+    [user] => admin
+)
+
+
+
+### 30.04.2019 15:16:59
+Array
+(
+    [allow] => 1
+    [user] => admin
+    [products] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 5
+                    [product_name] => Товар5
+                    [description] => Описание товара5
+                    [price] => 500
+                    [total] => 1000
+                    [quantity] => 2
+                    [img] => 05.jpg
+                    [id_session] => svi46u8iifr4a0v5vki6hapsl637qjom
+                )
+
+            [1] => Array
+                (
+                    [id] => 7
+                    [product_name] => Товар7
+                    [description] => Описание товара7
+                    [price] => 300
+                    [total] => 600
+                    [quantity] => 2
+                    [img] => 07.jpg
+                    [id_session] => svi46u8iifr4a0v5vki6hapsl637qjom
+                )
+
+        )
+
+    [id] => 8
+)
+
+
+
+### 30.04.2019 15:16:59
+Array
+(
+    [allow] => 1
+    [user] => admin
+)
+
+
+
+### 30.04.2019 15:17:26
+Array
+(
+    [allow] => 1
+    [user] => admin
+    [products] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 5
+                    [product_name] => Товар5
+                    [description] => Описание товара5
+                    [price] => 500
+                    [total] => 1000
+                    [quantity] => 2
+                    [img] => 05.jpg
+                    [id_session] => svi46u8iifr4a0v5vki6hapsl637qjom
+                )
+
+            [1] => Array
+                (
+                    [id] => 7
+                    [product_name] => Товар7
+                    [description] => Описание товара7
+                    [price] => 300
+                    [total] => 600
+                    [quantity] => 2
+                    [img] => 07.jpg
+                    [id_session] => svi46u8iifr4a0v5vki6hapsl637qjom
+                )
+
+        )
+
+    [id] => 8
+)
+
+
+
+### 30.04.2019 15:17:26
+Array
+(
+    [allow] => 1
+    [user] => admin
+)
+
+
+
+### 30.04.2019 15:17:52
+Array
+(
+    [allow] => 1
+    [user] => admin
+    [products] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 5
+                    [product_name] => Товар5
+                    [description] => Описание товара5
+                    [price] => 500
+                    [total] => 1000
+                    [quantity] => 2
+                    [img] => 05.jpg
+                    [id_session] => svi46u8iifr4a0v5vki6hapsl637qjom
+                )
+
+            [1] => Array
+                (
+                    [id] => 7
+                    [product_name] => Товар7
+                    [description] => Описание товара7
+                    [price] => 300
+                    [total] => 600
+                    [quantity] => 2
+                    [img] => 07.jpg
+                    [id_session] => svi46u8iifr4a0v5vki6hapsl637qjom
+                )
+
+        )
+
+    [id] => 8
+)
+
+
+
+### 30.04.2019 15:17:52
+Array
+(
+    [allow] => 1
+    [user] => admin
+)
+
+
+
+### 30.04.2019 15:18:16
+Array
+(
+    [allow] => 1
+    [user] => admin
+    [products] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 5
+                    [product_name] => Товар5
+                    [description] => Описание товара5
+                    [price] => 500
+                    [total] => 1000
+                    [quantity] => 2
+                    [img] => 05.jpg
+                    [id_session] => svi46u8iifr4a0v5vki6hapsl637qjom
+                )
+
+            [1] => Array
+                (
+                    [id] => 7
+                    [product_name] => Товар7
+                    [description] => Описание товара7
+                    [price] => 300
+                    [total] => 600
+                    [quantity] => 2
+                    [img] => 07.jpg
+                    [id_session] => svi46u8iifr4a0v5vki6hapsl637qjom
+                )
+
+        )
+
+    [id] => 8
+)
+
+
+
+### 30.04.2019 15:18:16
+Array
+(
+    [allow] => 1
+    [user] => admin
+)
+
+
+
+### 30.04.2019 15:24:47
+Array
+(
+    [allow] => 1
+    [user] => admin
+    [products] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 5
+                    [product_name] => Товар5
+                    [description] => Описание товара5
+                    [price] => 500
+                    [total] => 1000
+                    [quantity] => 2
+                    [img] => 05.jpg
+                    [id_session] => svi46u8iifr4a0v5vki6hapsl637qjom
+                )
+
+            [1] => Array
+                (
+                    [id] => 7
+                    [product_name] => Товар7
+                    [description] => Описание товара7
+                    [price] => 300
+                    [total] => 600
+                    [quantity] => 2
+                    [img] => 07.jpg
+                    [id_session] => svi46u8iifr4a0v5vki6hapsl637qjom
+                )
+
+        )
+
+    [id] => 8
+)
+
+
+
+### 30.04.2019 15:24:47
+Array
+(
+    [allow] => 1
+    [user] => admin
+)
+
+
+
+### 30.04.2019 15:25:56
+Array
+(
+    [allow] => 1
+    [user] => admin
+    [products] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 5
+                    [product_name] => Товар5
+                    [description] => Описание товара5
+                    [price] => 500
+                    [total] => 1000
+                    [quantity] => 2
+                    [img] => 05.jpg
+                    [id_session] => svi46u8iifr4a0v5vki6hapsl637qjom
+                )
+
+            [1] => Array
+                (
+                    [id] => 7
+                    [product_name] => Товар7
+                    [description] => Описание товара7
+                    [price] => 300
+                    [total] => 600
+                    [quantity] => 2
+                    [img] => 07.jpg
+                    [id_session] => svi46u8iifr4a0v5vki6hapsl637qjom
+                )
+
+        )
+
+    [id] => 8
+)
+
+
+
+### 30.04.2019 15:25:57
+Array
+(
+    [allow] => 1
+    [user] => admin
+)
+
+
+
+### 30.04.2019 15:28:54
+Array
+(
+    [allow] => 1
+    [user] => admin
+    [products] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 5
+                    [product_name] => Товар5
+                    [description] => Описание товара5
+                    [price] => 500
+                    [total] => 1000
+                    [quantity] => 2
+                    [img] => 05.jpg
+                    [id_session] => svi46u8iifr4a0v5vki6hapsl637qjom
+                )
+
+            [1] => Array
+                (
+                    [id] => 7
+                    [product_name] => Товар7
+                    [description] => Описание товара7
+                    [price] => 300
+                    [total] => 600
+                    [quantity] => 2
+                    [img] => 07.jpg
+                    [id_session] => svi46u8iifr4a0v5vki6hapsl637qjom
+                )
+
+        )
+
+    [id] => 8
+)
+
+
+
+### 30.04.2019 15:28:55
+Array
+(
+    [allow] => 1
+    [user] => admin
+)
+
+
+
+### 30.04.2019 15:29:32
+Array
+(
+    [allow] => 1
+    [user] => admin
+    [products] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 5
+                    [product_name] => Товар5
+                    [description] => Описание товара5
+                    [price] => 500
+                    [total] => 1000
+                    [quantity] => 2
+                    [img] => 05.jpg
+                    [id_session] => svi46u8iifr4a0v5vki6hapsl637qjom
+                )
+
+            [1] => Array
+                (
+                    [id] => 7
+                    [product_name] => Товар7
+                    [description] => Описание товара7
+                    [price] => 300
+                    [total] => 600
+                    [quantity] => 2
+                    [img] => 07.jpg
+                    [id_session] => svi46u8iifr4a0v5vki6hapsl637qjom
+                )
+
+        )
+
+    [id] => 8
+)
+
+
+
+### 30.04.2019 15:29:32
+Array
+(
+    [allow] => 1
+    [user] => admin
+)
+
+
+
+### 30.04.2019 15:29:50
+Array
+(
+    [allow] => 1
+    [user] => admin
+    [products] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 5
+                    [product_name] => Товар5
+                    [description] => Описание товара5
+                    [price] => 500
+                    [total] => 1000
+                    [quantity] => 2
+                    [img] => 05.jpg
+                    [id_session] => svi46u8iifr4a0v5vki6hapsl637qjom
+                )
+
+            [1] => Array
+                (
+                    [id] => 7
+                    [product_name] => Товар7
+                    [description] => Описание товара7
+                    [price] => 300
+                    [total] => 600
+                    [quantity] => 2
+                    [img] => 07.jpg
+                    [id_session] => svi46u8iifr4a0v5vki6hapsl637qjom
+                )
+
+        )
+
+    [id] => 8
+)
+
+
+
+### 30.04.2019 15:29:50
+Array
+(
+    [allow] => 1
+    [user] => admin
+)
+
+
+
+### 30.04.2019 15:30:26
+Array
+(
+    [allow] => 1
+    [user] => admin
+    [products] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 5
+                    [product_name] => Товар5
+                    [description] => Описание товара5
+                    [price] => 500
+                    [total] => 1000
+                    [quantity] => 2
+                    [img] => 05.jpg
+                    [id_session] => svi46u8iifr4a0v5vki6hapsl637qjom
+                )
+
+            [1] => Array
+                (
+                    [id] => 7
+                    [product_name] => Товар7
+                    [description] => Описание товара7
+                    [price] => 300
+                    [total] => 600
+                    [quantity] => 2
+                    [img] => 07.jpg
+                    [id_session] => svi46u8iifr4a0v5vki6hapsl637qjom
+                )
+
+        )
+
+    [id] => 8
+)
+
+
+
+### 30.04.2019 15:30:26
+Array
+(
+    [allow] => 1
+    [user] => admin
+)
+
+
+
+### 30.04.2019 15:38:42
+Array
+(
+    [allow] => 1
+    [user] => admin
+    [products] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 5
+                    [product_name] => Товар5
+                    [description] => Описание товара5
+                    [price] => 500
+                    [total] => 1000
+                    [quantity] => 2
+                    [img] => 05.jpg
+                    [id_session] => svi46u8iifr4a0v5vki6hapsl637qjom
+                )
+
+            [1] => Array
+                (
+                    [id] => 7
+                    [product_name] => Товар7
+                    [description] => Описание товара7
+                    [price] => 300
+                    [total] => 600
+                    [quantity] => 2
+                    [img] => 07.jpg
+                    [id_session] => svi46u8iifr4a0v5vki6hapsl637qjom
+                )
+
+        )
+
+    [id] => 8
+)
+
+
+
+### 30.04.2019 15:38:42
+Array
+(
+    [allow] => 1
+    [user] => admin
+)
+
+
+
+### 30.04.2019 15:39:08
+Array
+(
+    [allow] => 1
+    [user] => admin
+    [products] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 5
+                    [product_name] => Товар5
+                    [description] => Описание товара5
+                    [price] => 500
+                    [total] => 1000
+                    [quantity] => 2
+                    [img] => 05.jpg
+                    [id_session] => svi46u8iifr4a0v5vki6hapsl637qjom
+                )
+
+            [1] => Array
+                (
+                    [id] => 7
+                    [product_name] => Товар7
+                    [description] => Описание товара7
+                    [price] => 300
+                    [total] => 600
+                    [quantity] => 2
+                    [img] => 07.jpg
+                    [id_session] => svi46u8iifr4a0v5vki6hapsl637qjom
+                )
+
+        )
+
+    [id] => 8
+)
+
+
+
+### 30.04.2019 15:39:08
+Array
+(
+    [allow] => 1
+    [user] => admin
+)
+
+
+
+### 30.04.2019 15:40:29
+Array
+(
+    [allow] => 1
+    [user] => admin
+    [products] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 5
+                    [product_name] => Товар5
+                    [description] => Описание товара5
+                    [price] => 500
+                    [total] => 1000
+                    [quantity] => 2
+                    [img] => 05.jpg
+                    [id_session] => svi46u8iifr4a0v5vki6hapsl637qjom
+                )
+
+            [1] => Array
+                (
+                    [id] => 7
+                    [product_name] => Товар7
+                    [description] => Описание товара7
+                    [price] => 300
+                    [total] => 600
+                    [quantity] => 2
+                    [img] => 07.jpg
+                    [id_session] => svi46u8iifr4a0v5vki6hapsl637qjom
+                )
+
+        )
+
+    [id] => 8
+)
+
+
+
+### 30.04.2019 15:40:29
+Array
+(
+    [allow] => 1
+    [user] => admin
+)
+
+
+
+### 30.04.2019 15:40:35
+Array
+(
+    [allow] => 1
+    [user] => admin
+    [products] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 5
+                    [product_name] => Товар5
+                    [description] => Описание товара5
+                    [price] => 500
+                    [total] => 1000
+                    [quantity] => 2
+                    [img] => 05.jpg
+                    [id_session] => svi46u8iifr4a0v5vki6hapsl637qjom
+                )
+
+            [1] => Array
+                (
+                    [id] => 7
+                    [product_name] => Товар7
+                    [description] => Описание товара7
+                    [price] => 300
+                    [total] => 600
+                    [quantity] => 2
+                    [img] => 07.jpg
+                    [id_session] => svi46u8iifr4a0v5vki6hapsl637qjom
+                )
+
+        )
+
+    [id] => 8
+)
+
+
+
+### 30.04.2019 15:40:36
+Array
+(
+    [allow] => 1
+    [user] => admin
+)
+
+
+
+### 30.04.2019 15:41:33
+Array
+(
+    [allow] => 1
+    [user] => admin
+    [products] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 5
+                    [product_name] => Товар5
+                    [description] => Описание товара5
+                    [price] => 500
+                    [total] => 1000
+                    [quantity] => 2
+                    [img] => 05.jpg
+                    [id_session] => svi46u8iifr4a0v5vki6hapsl637qjom
+                )
+
+            [1] => Array
+                (
+                    [id] => 7
+                    [product_name] => Товар7
+                    [description] => Описание товара7
+                    [price] => 300
+                    [total] => 600
+                    [quantity] => 2
+                    [img] => 07.jpg
+                    [id_session] => svi46u8iifr4a0v5vki6hapsl637qjom
+                )
+
+        )
+
+    [id] => 8
+)
+
+
+
+### 30.04.2019 15:41:33
+Array
+(
+    [allow] => 1
+    [user] => admin
+)
+
+
+
+### 30.04.2019 15:42:55
+Array
+(
+    [allow] => 1
+    [user] => admin
+    [products] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 5
+                    [product_name] => Товар5
+                    [description] => Описание товара5
+                    [price] => 500
+                    [total] => 1000
+                    [quantity] => 2
+                    [img] => 05.jpg
+                    [id_session] => svi46u8iifr4a0v5vki6hapsl637qjom
+                )
+
+            [1] => Array
+                (
+                    [id] => 7
+                    [product_name] => Товар7
+                    [description] => Описание товара7
+                    [price] => 300
+                    [total] => 600
+                    [quantity] => 2
+                    [img] => 07.jpg
+                    [id_session] => svi46u8iifr4a0v5vki6hapsl637qjom
+                )
+
+        )
+
+    [id] => 8
+)
+
+
+
+### 30.04.2019 15:42:55
+Array
+(
+    [allow] => 1
+    [user] => admin
+)
+
+
+
+### 30.04.2019 15:43:33
+Array
+(
+    [allow] => 1
+    [user] => admin
+    [products] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 5
+                    [product_name] => Товар5
+                    [description] => Описание товара5
+                    [price] => 500
+                    [total] => 1000
+                    [quantity] => 2
+                    [img] => 05.jpg
+                    [id_session] => svi46u8iifr4a0v5vki6hapsl637qjom
+                )
+
+            [1] => Array
+                (
+                    [id] => 7
+                    [product_name] => Товар7
+                    [description] => Описание товара7
+                    [price] => 300
+                    [total] => 600
+                    [quantity] => 2
+                    [img] => 07.jpg
+                    [id_session] => svi46u8iifr4a0v5vki6hapsl637qjom
+                )
+
+        )
+
+    [id] => 8
+)
+
+
+
+### 30.04.2019 15:43:33
+Array
+(
+    [allow] => 1
+    [user] => admin
+)
+
+
+

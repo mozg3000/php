@@ -165,11 +165,20 @@ function prepareVariables($page, $action, $id, $category)
             $params['products'] = $content;
 //            header("Location: /cart");
             break;
-        case 'proceed':
+        case 'api':
 
-            if($action == "proceed"){
+            if($action == "showOrder"){
 
 
+                $orders=showOrder($id);
+//                echo '[{"id":5,"product_name":"Товар5","description":"Описание товара5","price":500,"total":1000,"quantity":2,"img":"05.jpg","id_session":"svi46u8iifr4a0v5vki6hapsl637qjom"},{"id":7,"product_name":"Товар7","description":"Описание товара7","price":300,"total":600,"quantity":2,"img":"07.jpg","id_session":"svi46u8iifr4a0v5vki6hapsl637qjom"}]';
+//                $params['order'] =
+                    echo json_encode($orders, JSON_UNESCAPED_UNICODE | JSON_NUMERIC_CHECK); die();
+            }elseif ($action == 'setOrderStatus'){
+
+                $res = setOrderStatus($id, $_GET['new_status']);
+
+                echo json_encode($res);die();
             }
             break;
         case 'order':

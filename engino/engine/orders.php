@@ -17,3 +17,9 @@ function showOrder($id){
 
     return $order_content;
 }
+function setOrderStatus($id, $newstatus){
+
+    $sql = "UPDATE `orders` SET `status`= '$newstatus' WHERE id_order = $id";
+
+    return executeQuery($sql);
+}
