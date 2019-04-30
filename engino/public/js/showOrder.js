@@ -9,7 +9,7 @@ ss.addEventListener('change',(e)=>{
 
     setStatus(id,$newstatus).then(res=>{
 
-        console.log(res);
+        //console.log(res);
     })
 });
 

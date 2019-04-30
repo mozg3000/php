@@ -47,10 +47,10 @@
 <div style="display: inline-block;margin: 0 20px;">
 
     <select id="status">
-        <option value="Принят" selected data-orderID="<?=$id?>">
+        <option value="Принят" <?if($product['status'] =='Принят')echo "selected"?> data-orderID="<?=$id?>">
             Принят
         </option>
-        <option value="Передан в обработку"  data-orderID="<?=$id?>">
+        <option value="Передан в обработку" <?if($product['status'] =='Передан в обработку')echo "selected"?> data-orderID="<?=$id?>">
             Передан в обработку
         </option>
     </select>

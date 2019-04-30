@@ -11,7 +11,7 @@ function ordersList(){
 function showOrder($id){
 //var_dump($id);die();
     $id = (int) $id;
-    $sql = "SELECT id,product_name, description, price, price*quantity as total, quantity, img, cart.id_session FROM `orders`, cart, catalog WHERE id_order = {$id} and orders.id_session = cart.id_session AND cart.id_product = catalog.id ";
+    $sql = "SELECT id,product_name, description, price, price*quantity as total, quantity, img, cart.id_session, status FROM `orders`, cart, catalog WHERE id_order = {$id} and orders.id_session = cart.id_session AND cart.id_product = catalog.id ";
 //    var_dump($sql);
     $order_content = getAssocResult($sql);
 
