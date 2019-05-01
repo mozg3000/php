@@ -123,11 +123,11 @@ function prepareVariables($page, $action, $id, $category)
 //                    var_dump("rfile",$_POST['load']);
                     if($_POST['load']){
 
-//                        $path=IMGS_DIR . "big/" . $_FILES["rfile"][name];
-//                        uploadFile("rfile", $path);
-//
-//                        $path2small=IMGS_DIR . "small/" . $_FILES["rfile"][name];
-//                        create_thumbnail($path, $path2small, 150, 100);
+                        $path=IMGS_DIR . "big/" . $_FILES["rfile"][name];
+                        uploadFile("rfile", $path);
+
+                        $path2small=IMGS_DIR . "small/" . $_FILES["rfile"][name];
+                        create_thumbnail($path, $path2small, 150, 100);
                         $img = $_FILES["rfile"][name];
                         $id=(int)$id;
 
