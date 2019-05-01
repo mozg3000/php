@@ -72,13 +72,16 @@ function prepareVariables($page, $action, $id, $category)
 //            var_dump($action);
             if($action=="") {
 
+//                var_dump($action);
+
                 if($id){
 
                     $params=initProduct($id);
                     $params["allow"]=$allow;
                     $params["user"]=$user;
                 }
-//                var_dump($_GET['edit'],$_GET['new_img']);
+                var_dump($_GET['edit'],$_GET['new_img']);
+//                die();
                 if($_GET['edit']){
 
                     $params["edit"]= true;
@@ -88,10 +91,10 @@ function prepareVariables($page, $action, $id, $category)
                 }
                 if($_GET['new_img']){
 
-                    $params["new_img"]= $_GET['new_img'];
+                    $params["new_img"]= $_GET['newimg'];
                 }else{
 
-//                    $params["new_img"]= false;
+                    $params["new_img"]= false;
                 }
 
             }elseif ($action=='add'){
@@ -114,19 +117,22 @@ function prepareVariables($page, $action, $id, $category)
                 $params=initProduct($id);
                 $params["allow"]=$allow;
                 $params["user"]=$user;
+//                var_dump("fdfsd");
                 if($category == 'img'){
 
+//                    var_dump("rfile",$_POST['load']);
                     if($_POST['load']){
 
-//                        var_dump("Location: /product/edit/$id/?img='fjdg.jpg'");die();
-                        $path=IMGS_DIR . "big/" . $_FILES["rfile"][name];
-                        uploadFile("rfile", $path);
-
-                        $path2small=IMGS_DIR . "small/" . $_FILES["rfile"][name];
-                        create_thumbnail($path, $path2small, 150, 100);
+//                        $path=IMGS_DIR . "big/" . $_FILES["rfile"][name];
+//                        uploadFile("rfile", $path);
+//
+//                        $path2small=IMGS_DIR . "small/" . $_FILES["rfile"][name];
+//                        create_thumbnail($path, $path2small, 150, 100);
                         $img = $_FILES["rfile"][name];
-                       var_dump("/product/edit/$id/?new_img=$img");
-                        header("Location: /product/{$id}/?edit=true&new_img='{$img}'");
+                        $id=(int)$id;
+
+//                        var_dump("Location: /product/{$id}/?edit=true&new_img='{$img}'");
+                        header("Location: /product/edit/$id/?edit=true&newimg='$img'");
                     }
 
                 }

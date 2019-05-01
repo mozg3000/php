@@ -1,31 +1,50 @@
 
-<?//= var_dump($edit);?>
+<?= var_dump($edit,$new_img,$allow);?>
 <div>
-    <a href="#" id="edit">
+    <?if($allow):?>
+    <?if(!$edit):?>
+    <a href="/product/edit/<?=$id?>" id="edit">
         Редактировать
     </a>
-    <a href="#" id="cancel" style="display: none">
+    <?else:?>
+    <a href="#" id="cancel" style="display: block">
         Отмена
     </a>
+    <?endif;?>
     <br>
-    <img src="<?= GALLERY_DIR . 'big/' . $img?>" alt="" style="width: 350px"><br>
+    <?endif;?>
+    <?if(!$new_img):?>
+        <img src="<?= GALLERY_DIR . 'big/' . $img?>" alt="" style="width: 350px"><br>
+    <?else:?>
+        <img src="<?= GALLERY_DIR . 'big/' . $new_img?>" alt="" style="width: 350px"><br>
+    <?endif;?>
+    <?if($allow):?>
+    <?if($edit):?>
     <form method="post" action="/product/edit/img/<?=$id?>" enctype="multipart/form-data"
-            name="img_download" style="display: none">
+            name="img_download" style="display: block">
 
         Изображение <br>
         <input type="file" name="rfile"><br>
-        <input type="button" name="load" value="Загрузить"><br>
+        <input type="submit" name="load" value="Загрузить"><br>
     </form>
-    <form name="product" action="/product/edited/--><?=$id?><!--" method="post">
-        <input type="text" name="name" value="<?=$product_name?>" readonly>
+    <?endif;?>
+    <br>
+    <?endif;?>
+    <form name="product" action="/product/edited/--><?=$id?>" method="post">
+        <input type="text" name="name" value="<?=$product_name?>" <?if(!$edit)echo readonly?>>
         <br>
-        <input type="text" name="price" value="<?=$price?>" readonly>
+        <input type="text" name="price" value="<?=$price?>" <?if(!$edit)echo readonly?>>
         <br>
-        <textarea name="description" cols="30" rows="10" readonly>
+        <textarea name="description" cols="30" rows="10" <?if(!$edit)echo readonly?>>
             <?=$description?>
         </textarea><br>
+        <?if($allow):?>
+        <?if($edit):?>
             <input type="submit" name="edit" value="Изменить" style="display: none">
+        <?endif;?>
+        <?endif;?>
         </form>
+
 </div>
 <p>
     Добавте свой отзыв

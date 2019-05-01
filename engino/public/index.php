@@ -29,7 +29,7 @@ if ($url_array[1] == "") {
             }
         }
     }
-//    var_dump($id,$action,$category,$page);
+//    var_dump($id, $page,$action,$category);
 }
 
 //var_dump($page,$action,$id);
