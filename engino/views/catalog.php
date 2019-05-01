@@ -1,4 +1,5 @@
 <h2>Каталог</h2>
+<?if($allow):?>
 <?if(!$new):?>
 <a href="/catalog/add/"
    style="padding: 7px;border: 1px solid; margin-bottom: 20px;display: block; width: 80px;">
@@ -9,6 +10,7 @@
        style="padding: 7px;border: 1px solid; margin-bottom: 20px;display: block; width: 80px;">
         Отмена
     </a><br>
+<?endif;?>
 <?endif;?>
 <?if($new):?>
     <?if($_GET['img']):?>

@@ -1,6 +1,6 @@
 
 <h2>Корзина</h2>
-<?//var_dump($products)?>
+<?//var_dump($id_session)?>
 <? foreach ($products as $product): ?>
 
 
@@ -22,7 +22,7 @@
                 </div>
 <!--            </form>-->
                 <div style="display: inline-block;margin: 0 20px;">
-                    Количество <?=$product['quantity']?>
+                    Количество <span id="quantity"><?=$product['quantity']?></span>
                 </div>
                 <div style="display: inline-block;margin: 0 20px;">
                     Цена <?=$product['price']?>
@@ -31,9 +31,11 @@
                     Цена всего <?=$product['total']?>
                 </div>
                 <div style="display: inline-block;margin: 0 20px;">
-                    <a href="/cart/delete/<?=$product['id']?>">
+<!--                    </cart/delete/--><?//=$product['id']?>
+                    <button
+                        id="delete_item" data-id="<?=$product['id']?>">
                         [X]
-                    </a>
+                    </button>
                 </div>
 
     </div>
@@ -54,3 +56,6 @@
         Оформить
     </a>
 </div>
+<script>
+    <?include "../public/js/cart.js"?>
+</script>

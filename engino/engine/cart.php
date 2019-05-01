@@ -29,13 +29,14 @@ function readCart($session){
 function deleteFromCart($id, $session){
 
     $id=(int)$id;
-    $count_query = "SELECT quantity as count FROM `cart` where id_product= $id";
+    $count_query = "SELECT quantity as count FROM `cart` where id_product= $id and id_session='$session'";
     $count = getAssocResult($count_query)[0]['count'];
 //    var_dump($id,$count_query,$count);
     $sql= '';
     if($count>1){
 
         $sql = "UPDATE `cart` SET `quantity`=quantity-1 WHERE id_session = '{$session}' and id_product = {$id}";
+//        var_dump($id,$count_query,$count,$sql); die();
     }elseif($count == 1){
 
         $sql = "DELETE FROM `cart` WHERE id_session = '$session' and id_product = $id";
